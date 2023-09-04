@@ -1,0 +1,189 @@
+INFO - 2023-07-01 04:48:04 --> 4
+INFO - 2023-07-01 04:48:04 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjQiLCJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODgxOTA0ODR9.JM6SO-GBd03T5ot2RjjEdbnCqoy1Qey0R7D5-f3T37w
+INFO - 2023-07-01 04:48:04 --> Prueba test : object
+INFO - 2023-07-01 04:48:04 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 04:48:04 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 04:51:14 --> errores : 1
+INFO - 2023-07-01 05:12:27 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjQiLCJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODgxOTA0ODR9.JM6SO-GBd03T5ot2RjjEdbnCqoy1Qey0R7D5-f3T37w
+INFO - 2023-07-01 05:12:27 --> Prueba test : object
+INFO - 2023-07-01 05:12:27 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 05:12:27 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 05:13:12 --> errores : 0
+CRITICAL - 2023-07-01 05:13:12 --> Call to a member function setCookie() on null
+in APPPATH\Controllers\Auth.php on line 67.
+ 1 APPPATH\Controllers\UserController.php(57): App\Controllers\Auth->lagout()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->updateUser()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-01 05:20:34 --> errores : 0
+INFO - 2023-07-01 05:20:55 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjQiLCJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODgxOTA0ODR9.JM6SO-GBd03T5ot2RjjEdbnCqoy1Qey0R7D5-f3T37w
+INFO - 2023-07-01 05:20:55 --> Prueba test : object
+INFO - 2023-07-01 05:20:55 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 05:20:55 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 05:21:57 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjQiLCJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODgxOTA0ODR9.JM6SO-GBd03T5ot2RjjEdbnCqoy1Qey0R7D5-f3T37w
+INFO - 2023-07-01 05:21:57 --> Prueba test : object
+INFO - 2023-07-01 05:21:57 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 05:21:57 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 05:25:16 --> errores : 0
+INFO - 2023-07-01 05:25:32 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 05:25:45 --> 4
+INFO - 2023-07-01 05:25:45 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjQiLCJlbWFpbCI6ImF4ZWx4MzRAaG90bWFpbC5jb20iLCJleHAiOjE2ODgxOTI3NDV9.3S8gjIfS94hBFvCZYUf4hrM9XgWeqSgh-9xJAbCAmiI
+INFO - 2023-07-01 05:25:45 --> Prueba test : object
+INFO - 2023-07-01 05:25:45 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 05:25:45 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 05:26:16 --> errores : 0
+INFO - 2023-07-01 05:26:27 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 05:26:36 --> 4
+INFO - 2023-07-01 05:26:36 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjQiLCJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODgxOTI3OTZ9.0kmWJ0YBFIbku9GdwPWl_ZHp0ie-5N3HxVvj-rAn79o
+INFO - 2023-07-01 05:26:36 --> Prueba test : object
+INFO - 2023-07-01 05:26:36 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 05:26:36 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 05:30:57 --> errores : 0
+INFO - 2023-07-01 05:31:06 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 05:31:19 --> 4
+INFO - 2023-07-01 05:51:53 --> 4
+INFO - 2023-07-01 05:51:53 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjQiLCJlbWFpbCI6ImF4ZWx4MzRAaG90bWFpbC5jb20iLCJleHAiOjE2ODgxOTQzMTN9.jSfYKzyJnywjkhI7qF1gNJf0yK-TJ0qx_KF_X-hzbNA
+INFO - 2023-07-01 05:51:53 --> Prueba test : object
+INFO - 2023-07-01 05:51:54 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 05:51:54 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 05:52:29 --> errores : 0
+CRITICAL - 2023-07-01 05:52:29 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\TokenSession.php on line 18.
+ 1 APPPATH\Helpers\TokenSession.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Helpers\\TokenSession.php', 18)
+ 2 APPPATH\Helpers\Email.php(35): App\Helpers\TokenSession::generateToken(null, 1688277149)
+ 3 APPPATH\Controllers\UserController.php(61): App\Helpers\Email::sendEmailValidAccount('axelx33@hotmail.com')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->updateUser()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-01 06:10:11 --> Firebase\JWT\JWT::decode(): Argument #1 ($jwt) must be of type string, null given, called in D:\XAMPP\htdocs\codeigniter4\app\Helpers\TokenSession.php on line 44
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 95.
+ 1 APPPATH\Helpers\TokenSession.php(44): Firebase\JWT\JWT::decode(null, Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\UserController.php(38): App\Helpers\TokenSession::decodeToken(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->updateUser()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-01 06:10:50 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:11:08 --> 4
+INFO - 2023-07-01 06:11:08 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjQiLCJlbWFpbCI6ImF4ZWx4MzRAaG90bWFpbC5jb20iLCJleHAiOjE2ODgxOTU0Njh9.AGR0yUwv73uWJdzW1aXF5OEiY4NaVm6RLfW1fgs5KbQ
+INFO - 2023-07-01 06:11:08 --> Prueba test : object
+INFO - 2023-07-01 06:11:08 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 06:11:08 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 06:11:44 --> errores : 0
+INFO - 2023-07-01 06:13:13 --> 4
+INFO - 2023-07-01 06:13:13 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjQiLCJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODgxOTU1OTN9.lgM_NyqpVrbPmmrPHnAfOhRIgUUNCaZqHki-vBDFQ3g
+INFO - 2023-07-01 06:13:13 --> Prueba test : object
+INFO - 2023-07-01 06:13:13 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 06:13:13 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 06:13:25 --> errores : 1
+INFO - 2023-07-01 06:18:30 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:26:53 --> 4
+INFO - 2023-07-01 06:26:53 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjQiLCJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODgxOTY0MTN9.tCRitwZ92dk9MNDsDjVf9iXXD-L_AjqHLU0XbFPndU0
+INFO - 2023-07-01 06:26:53 --> Prueba test : object
+INFO - 2023-07-01 06:26:53 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 06:26:53 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 06:26:59 --> errores : 1
+INFO - 2023-07-01 06:28:18 --> errores : 0
+CRITICAL - 2023-07-01 06:28:32 --> Firebase\JWT\JWT::decode(): Argument #1 ($jwt) must be of type string, null given, called in D:\XAMPP\htdocs\codeigniter4\app\Helpers\TokenSession.php on line 44
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 95.
+ 1 APPPATH\Helpers\TokenSession.php(44): Firebase\JWT\JWT::decode(null, Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\UserController.php(38): App\Helpers\TokenSession::decodeToken(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->updateUser()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-01 06:32:32 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:32:37 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:32:38 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:32:38 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:32:38 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:32:38 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:32:39 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:32:39 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:32:39 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:34:37 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:34:38 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:34:38 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:34:46 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:35:09 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:35:12 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:35:13 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:36:59 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:36:59 --> Entreee 
+INFO - 2023-07-01 06:38:38 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:38:38 --> Entreee 
+INFO - 2023-07-01 06:38:44 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-07-01 06:38:44 --> Entreee 
+INFO - 2023-07-01 06:51:29 --> 4
+INFO - 2023-07-01 06:52:02 --> 4
+INFO - 2023-07-01 06:52:02 --> Prueba test : object
+INFO - 2023-07-01 06:52:02 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 06:52:02 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 06:53:09 --> 4
+INFO - 2023-07-01 06:53:09 --> Prueba test : object
+INFO - 2023-07-01 06:53:09 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 06:53:09 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 06:54:39 --> 4
+INFO - 2023-07-01 06:54:39 --> Prueba test : object
+INFO - 2023-07-01 06:54:39 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 06:54:39 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 10:14:48 --> 4
+INFO - 2023-07-01 10:14:48 --> Prueba test : object
+INFO - 2023-07-01 10:14:48 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 10:14:48 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 10:45:05 --> Prueba test : object
+INFO - 2023-07-01 10:45:05 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 10:45:05 --> Usuario buscado de la BD ----> : John
+CRITICAL - 2023-07-01 10:45:05 --> Undefined variable $username
+in APPPATH\Views\componentes\navUser.php on line 14.
+ 1 APPPATH\Views\componentes\navUser.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Views\\componentes\\navUser.php', 14)
+ 2 APPPATH\Views\home.php(11): include('D:\\XAMPP\\htdocs\\codeigniter4\\app\\Views\\componentes\\navUser.php')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\codeigniter4\\app\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\Views.php(38): view('home')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Views->home()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-01 11:35:26 --> Prueba test : object
+INFO - 2023-07-01 11:35:26 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 11:35:26 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 11:36:30 --> Prueba test : object
+INFO - 2023-07-01 11:36:30 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 11:36:30 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 11:38:05 --> Prueba test : object
+INFO - 2023-07-01 11:38:05 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 11:38:05 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 11:39:08 --> Prueba test : object
+INFO - 2023-07-01 11:39:08 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 11:39:08 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 11:39:41 --> Prueba test : object
+INFO - 2023-07-01 11:39:41 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 11:39:41 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 11:47:22 --> Prueba test : object
+INFO - 2023-07-01 11:47:22 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 11:47:22 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 11:47:37 --> Prueba test : object
+INFO - 2023-07-01 11:47:37 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 11:47:37 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 11:48:14 --> Prueba test : object
+INFO - 2023-07-01 11:48:14 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 11:48:14 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 11:52:27 --> Prueba test : object
+INFO - 2023-07-01 11:52:27 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 11:52:28 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 11:58:03 --> Prueba test : object
+INFO - 2023-07-01 11:58:03 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 11:58:03 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 12:00:42 --> Prueba test : object
+INFO - 2023-07-01 12:00:42 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 12:00:42 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 12:05:56 --> Prueba test : object
+INFO - 2023-07-01 12:05:56 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 12:05:56 --> Usuario buscado de la BD ----> : John
+INFO - 2023-07-01 12:09:44 --> Prueba test : object
+INFO - 2023-07-01 12:09:44 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-07-01 12:09:44 --> Usuario buscado de la BD ----> : John

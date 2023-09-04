@@ -1,0 +1,20 @@
+INFO - 2023-06-26 00:02:49 --> errores : 1
+INFO - 2023-06-26 00:02:49 --> current emmail : axelx33@hotmail.com  new email : axelx33@hotmail.com
+INFO - 2023-06-26 00:03:03 --> errores : 1
+INFO - 2023-06-26 00:03:03 --> current emmail : axelx33@hotmail.com  new email : axelx33@hotmail.com
+INFO - 2023-06-26 00:05:28 --> errores : 1
+INFO - 2023-06-26 00:05:28 --> current emmail : axelx33@hotmail.com  new email : axelx33@hotmail.com
+INFO - 2023-06-26 01:08:00 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-06-26 01:08:09 --> 4
+INFO - 2023-06-26 01:08:10 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjQiLCJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODc3NDUyOTB9.xufsDHlTv85iQ6lp-_Hpwukvmy8829SKtDOxnwaetwM
+INFO - 2023-06-26 01:08:10 --> Prueba test : object
+INFO - 2023-06-26 01:08:10 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-26 01:08:10 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-26 01:09:05 --> errores : 1
+INFO - 2023-06-26 01:09:05 --> current emmail : axelx33@hotmail.com  new email : axelx33@hotmail.com
+INFO - 2023-06-26 01:09:35 --> errores : 2
+INFO - 2023-06-26 01:09:35 --> current emmail : axelx33@hotmail.com  new email : axelx33@hotmail.com
+INFO - 2023-06-26 01:16:59 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjQiLCJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODc3NDUyOTB9.xufsDHlTv85iQ6lp-_Hpwukvmy8829SKtDOxnwaetwM
+INFO - 2023-06-26 01:16:59 --> Prueba test : object
+INFO - 2023-06-26 01:16:59 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-26 01:16:59 --> Usuario buscado de la BD ----> : John

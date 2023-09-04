@@ -1,0 +1,660 @@
+INFO - 2023-06-11 00:01:01 --> Prueba test : object
+INFO - 2023-06-11 00:01:01 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-11 00:01:01 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-11 00:01:26 --> Prueba test : object
+INFO - 2023-06-11 00:01:26 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-11 00:01:26 --> Usuario buscado de la BD ----> : John
+CRITICAL - 2023-06-11 00:17:10 --> The route for "http://localhost/codeigniter4/public//api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/codeigniter4/public//api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Auth.php(30): redirect('http://localhost/codeigniter4/public//api/1.0/views/login')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 00:18:04 --> The route for "http://localhost/codeigniter4/public/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Auth.php(30): redirect('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 00:19:29 --> The route for "http://localhost/codeigniter4/public/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Auth.php(30): redirect('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 00:19:54 --> Too few arguments to function App\Controllers\Views::login(), 0 passed in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Views.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Views->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 00:19:55 --> Prueba test : object
+INFO - 2023-06-11 00:19:55 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-11 00:19:55 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-11 00:20:00 --> Prueba test : object
+INFO - 2023-06-11 00:20:00 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-11 00:20:00 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-11 00:20:06 --> Prueba test : object
+INFO - 2023-06-11 00:20:06 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-11 00:20:06 --> Usuario buscado de la BD ----> : John
+CRITICAL - 2023-06-11 00:20:12 --> Too few arguments to function App\Controllers\Views::login(), 0 passed in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Views.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Views->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 00:20:43 --> Too few arguments to function App\Controllers\Views::login(), 0 passed in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Views.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Views->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 01:19:00 --> usuario3@example.com
+INFO - 2023-06-11 01:27:48 --> usuario3@example.com
+INFO - 2023-06-11 01:28:41 --> axelx33@hotmail.com
+INFO - 2023-06-11 01:28:58 --> usuario3@example.com
+CRITICAL - 2023-06-11 01:28:58 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 01:30:46 --> axelx33@hotmail.com
+INFO - 2023-06-11 01:31:00 --> usuario3@example.com
+CRITICAL - 2023-06-11 01:31:00 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 01:35:58 --> password_hash(): Argument #2 ($algo) must be a valid password hashing algorithm
+in APPPATH\Controllers\Auth.php on line 37.
+ 1 APPPATH\Controllers\Auth.php(37): password_hash(Object(SensitiveParameterValue), 'myKey')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-11 01:36:45 --> password_hash(): Argument #2 ($algo) must be a valid password hashing algorithm
+in APPPATH\Controllers\Auth.php on line 37.
+ 1 APPPATH\Controllers\Auth.php(37): password_hash(Object(SensitiveParameterValue), 'myKey')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 01:37:35 --> MENSAJE --> : $2y$10$/.l9Uij/aXo647ARRzclfO0Ym1rFSkkmRqZuPOE5BxdHwSg3NXe86
+CRITICAL - 2023-06-11 01:37:35 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 01:38:46 --> MENSAJE --> : $2y$10$4aP0birkZ1E3A74UojMZgemfgvKI6eZN5teyxaFbOe7ExUTg15wly
+CRITICAL - 2023-06-11 01:38:46 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 01:39:30 --> MENSAJE --> : $2y$10$qkpaeV6T2hRaKeuJe2KD2O2nJdp.XMM5YJyiopHAn6GUjXZRNFleu
+CRITICAL - 2023-06-11 01:39:30 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 01:41:06 --> password --> : 
+INFO - 2023-06-11 01:41:06 --> MENSAJE --> : $2y$10$/pjQSzv9EvB70jNF0Fl9v.bBWqsJIH2wfiEdSlXxlLpF2FK420ece
+CRITICAL - 2023-06-11 01:41:06 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 01:44:53 --> password --> : ""
+INFO - 2023-06-11 01:44:53 --> MENSAJE --> : $2y$10$vcTjXJC/5l6xtrNAmjOk.uPRThqOgOuhOBlE1URS5sep0kCWcvQVa
+CRITICAL - 2023-06-11 01:44:54 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 01:45:57 --> password --> : 
+INFO - 2023-06-11 01:45:57 --> MENSAJE --> : $2y$10$JCdUSANnDuzGNiYSTmalFeyrWPVnjmyDOQF9KAVFwRMrd.FGKAyIm
+CRITICAL - 2023-06-11 01:45:57 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 01:46:25 --> password --> : nghngngh
+INFO - 2023-06-11 01:52:40 --> password --> : 15300139
+INFO - 2023-06-11 01:53:56 --> password --> : 15300139
+INFO - 2023-06-11 01:54:16 --> password --> : gdfgdfgdfgdfg
+INFO - 2023-06-11 01:54:16 --> password -no coincide --> : gdfgdfgdfgdfg
+INFO - 2023-06-11 01:54:16 --> PaswordHash --> : $2y$10$dqVfATlfB.lCdJp8dsjaCelma/nI/ekwdofb8UpoAXF6O42.dSMPG
+CRITICAL - 2023-06-11 01:54:16 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 01:55:23 --> password --> : 15300139
+INFO - 2023-06-11 01:55:23 --> password -no coincide --> : 15300139
+INFO - 2023-06-11 01:55:23 --> PaswordHash --> : $2y$10$m9WqDlHM4lQtFcrOyMdm4eeAVkozeaYAosXazV.5mx/iRBhoV1vcC
+CRITICAL - 2023-06-11 01:55:23 --> Undefined variable $stateAlert
+in APPPATH\Views\login.php on line 119.
+ 1 APPPATH\Views\login.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $stateAlert', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Views\\login.php', 119)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\codeigniter4\\app\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH\Controllers\Auth.php(41): view('login')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 01:57:11 --> password --> : 15300139
+INFO - 2023-06-11 01:57:11 --> PaswordHash --> : $2y$10$6ou9ctJiSLEdQnGTK8MUaO4yHdCwzTmA6OrilRD2dbREWzDTsiKmy
+INFO - 2023-06-11 01:58:22 --> password --> : 15300139
+INFO - 2023-06-11 01:58:22 --> password coincide --> : 15300139
+INFO - 2023-06-11 01:58:22 --> PaswordHash --> : $2y$10$rKUc5mO3NnSCJgHBhE4TOucFwZftIdHlk5zdlkT0ltnEKBXvq0GJm
+INFO - 2023-06-11 01:58:57 --> password --> : 123456
+INFO - 2023-06-11 01:58:57 --> password -no coincide --> : 123456
+INFO - 2023-06-11 01:58:57 --> PaswordHash --> : $2y$10$OqPM00w5ksVvHeUorDjQOOHgxPQ3deX7GQoA.HBX8QQNbMm0ViWua
+INFO - 2023-06-11 01:59:46 --> password --> : 15300139
+INFO - 2023-06-11 02:01:13 --> password --> : 5454545455
+CRITICAL - 2023-06-11 02:01:13 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Auth.php on line 34.
+ 1 APPPATH\Controllers\Auth.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Controllers\\Auth.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 02:05:19 --> password --> : 
+INFO - 2023-06-11 02:05:19 --> password -no coincide --> : 
+INFO - 2023-06-11 02:05:19 --> PaswordHash --> : $2y$10$kP6C/7e1KVM4eiPBL3fcsewFase0jM5Auo8ty91F3OVoLe7pQQxYO
+INFO - 2023-06-11 02:05:54 --> password --> : 
+INFO - 2023-06-11 02:05:54 --> password -no coincide --> : 
+INFO - 2023-06-11 02:05:55 --> PaswordHash --> : $2y$10$q6SYom0jdQpdBze6FMhfZ.a5amq72yA2vfIFDj7mdIyDbJrV6/6Qa
+INFO - 2023-06-11 02:14:42 --> password --> : 15300139
+INFO - 2023-06-11 02:15:02 --> password --> : bgbfbfgb
+INFO - 2023-06-11 02:15:18 --> password --> : 
+INFO - 2023-06-11 02:15:38 --> password --> : htfhfhfhft
+CRITICAL - 2023-06-11 02:26:39 --> syntax error, unexpected token "*"
+in APPPATH\Controllers\Auth.php on line 70.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\XAMPP\\htdocs\\codeigniter4\\app\\Controllers\\Auth.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Auth')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Auth')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Auth', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 02:26:56 --> password --> : 15300139
+INFO - 2023-06-11 02:28:07 --> password --> : 
+INFO - 2023-06-11 02:31:19 --> password --> : 15300139
+CRITICAL - 2023-06-11 02:31:19 --> "exists_in_database" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 329.
+ 1 SYSTEMPATH\Validation\Validation.php(329): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('exists_in_database')
+ 2 SYSTEMPATH\Validation\Validation.php(179): CodeIgniter\Validation\Validation->processRules('email', 'email', 'axelx33@hotmail.com', [...], [...])
+ 3 APPPATH\Controllers\Auth.php(28): CodeIgniter\Validation\Validation->run()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 02:33:13 --> password --> : 15300139
+INFO - 2023-06-11 02:36:13 --> password --> : 153001
+INFO - 2023-06-11 02:36:13 --> PaswordHash --> : $2y$10$v1Qh1NsfrCvtJvxIvJWXAOg.Z7mnvE2eMxc3AD.2Vtpk8REOv1t.y
+INFO - 2023-06-11 02:36:25 --> password --> : dasda
+INFO - 2023-06-11 05:59:27 --> password --> : 15300139
+INFO - 2023-06-11 05:59:28 --> password coincide --> : 15300139
+INFO - 2023-06-11 05:59:28 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY0NjY3Njh9.zOAgqrkxNyXYqDdypwz0TDXdltz-Y_8BlOtCIUwBV9k
+INFO - 2023-06-11 06:01:14 --> password --> : 15300139
+INFO - 2023-06-11 06:01:14 --> password coincide --> : 15300139
+INFO - 2023-06-11 06:01:14 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY0NjY4NzR9.SapfDofIzXb0JHefXHiFRa1aap5EXkSR1obqJ5oPYsM
+INFO - 2023-06-11 06:01:14 --> Verificando permisos --> : 1
+INFO - 2023-06-11 06:05:36 --> password --> : 
+INFO - 2023-06-11 06:05:44 --> password --> : 15300139
+INFO - 2023-06-11 06:05:44 --> password coincide --> : 15300139
+INFO - 2023-06-11 06:05:44 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY0NjcxNDR9.V_msAE3F0BEIpDzwnIOoQVxWXlT39W63NwSEFgQziWE
+INFO - 2023-06-11 06:05:44 --> Verificando permisos --> : 1
+CRITICAL - 2023-06-11 06:05:44 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Auth.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 06:06:42 --> password --> : 15300139
+INFO - 2023-06-11 06:06:42 --> password coincide --> : 15300139
+INFO - 2023-06-11 06:06:42 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY0NjcyMDJ9.3MU5iPKNz4o6temXjksTp9wmW94GUZooARxB5KDcK1k
+INFO - 2023-06-11 06:06:42 --> Verificando permisos --> : 1
+CRITICAL - 2023-06-11 06:06:42 --> Array to string conversion
+in APPPATH\Controllers\Auth.php on line 52.
+ 1 APPPATH\Controllers\Auth.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Controllers\\Auth.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 06:07:04 --> password --> : 15300139
+INFO - 2023-06-11 06:07:04 --> password coincide --> : 15300139
+INFO - 2023-06-11 06:07:04 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY0NjcyMjR9.egsv0BUlj5vrglmj_JRsNRNvwJIpXCOpzMAwTh4xaqM
+INFO - 2023-06-11 06:07:04 --> Verificando permisos --> : 1
+CRITICAL - 2023-06-11 06:07:04 --> Undefined array key 0
+in APPPATH\Controllers\Auth.php on line 52.
+ 1 APPPATH\Controllers\Auth.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Controllers\\Auth.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 06:08:10 --> password --> : 15300139
+INFO - 2023-06-11 06:08:10 --> password coincide --> : 15300139
+INFO - 2023-06-11 06:08:10 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY0NjcyOTB9.GBNW3HSTqtfZ_q0EESwxHV0X0otB66uHckC8v9u-FnM
+INFO - 2023-06-11 06:08:10 --> Verificando permisos --> : 1
+INFO - 2023-06-11 06:08:10 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686467290
+)
+
+INFO - 2023-06-11 06:10:55 --> password --> : 15300139
+INFO - 2023-06-11 06:10:55 --> password coincide --> : 15300139
+INFO - 2023-06-11 06:10:55 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjB9.cMeJl-dtLSLCwNWltjTn_ZbdZzMjFQ_R35823pCdfR0
+INFO - 2023-06-11 06:10:55 --> Verificando permisos --> : 
+INFO - 2023-06-11 06:10:55 --> Token expirado
+INFO - 2023-06-11 06:10:55 --> Decodificando permisos --> : 
+INFO - 2023-06-11 06:15:25 --> password --> : 15300139
+INFO - 2023-06-11 06:15:25 --> password coincide --> : 15300139
+INFO - 2023-06-11 06:15:25 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY0Njc3MjV9.m-09D1OCBsQuFS2yVCTPJ0aOIgFjGCsWHu8dSt8Q16Q
+INFO - 2023-06-11 06:15:25 --> Verificando permisos --> : 1
+INFO - 2023-06-11 06:15:25 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686467725
+)
+
+CRITICAL - 2023-06-11 06:15:25 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 06:19:35 --> password --> : 15300139
+INFO - 2023-06-11 06:19:36 --> password coincide --> : 15300139
+INFO - 2023-06-11 06:19:36 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY0Njc5NzZ9.vMRw7feXpnOFjdoqoCdl4HZK2h4llQyeESNx16i95YM
+INFO - 2023-06-11 06:19:36 --> Verificando permisos --> : 1
+INFO - 2023-06-11 06:19:36 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686467976
+)
+
+CRITICAL - 2023-06-11 06:19:36 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 06:34:20 --> password --> : 15300139
+INFO - 2023-06-11 06:34:20 --> password coincide --> : 15300139
+INFO - 2023-06-11 06:34:20 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY0Njg4NjB9.Q1agfmP_i7P0gdbeuyQWiQvlZoJXs8EGv3ZyED0Vn74
+INFO - 2023-06-11 06:34:20 --> Verificando permisos --> : 1
+INFO - 2023-06-11 06:34:20 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686468860
+)
+
+INFO - 2023-06-11 06:34:20 --> Prueba test : object
+INFO - 2023-06-11 06:34:20 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-11 06:34:20 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-11 06:34:57 --> password --> : 15300139
+INFO - 2023-06-11 06:34:57 --> password coincide --> : 15300139
+INFO - 2023-06-11 06:34:57 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY0Njg4OTd9.U2mhCh_vLejVg-JuVXf6KOVAeEwweBwFCzuR4PN0318
+INFO - 2023-06-11 06:34:57 --> Verificando permisos --> : 1
+INFO - 2023-06-11 06:34:57 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686468897
+)
+
+CRITICAL - 2023-06-11 06:34:57 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 06:37:15 --> password --> : 15300139
+INFO - 2023-06-11 06:37:15 --> password coincide --> : 15300139
+INFO - 2023-06-11 06:37:15 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY0NjkwMzV9.mvgWAyQ9u_nlrzt-Qy_sl2bsYso_AVRAggYT8QISv6s
+INFO - 2023-06-11 06:37:15 --> Verificando permisos --> : 1
+INFO - 2023-06-11 06:37:15 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686469035
+)
+
+CRITICAL - 2023-06-11 06:37:15 --> Cannot access protected property CodeIgniter\HTTP\Response::$headers
+in APPPATH\Controllers\Auth.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 06:54:37 --> password --> : 15300139
+INFO - 2023-06-11 06:54:37 --> password coincide --> : 15300139
+INFO - 2023-06-11 06:54:37 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY0NzAwNzd9.RR-xe4WbnDSKhpYgwL3LPscPkxKOKjZvBcXsl_kYx1M
+INFO - 2023-06-11 06:54:37 --> Verificando permisos --> : 1
+INFO - 2023-06-11 06:54:37 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686470077
+)
+
+CRITICAL - 2023-06-11 06:54:37 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 07:03:40 --> password --> : 15300139
+INFO - 2023-06-11 07:03:40 --> password coincide --> : 15300139
+INFO - 2023-06-11 07:03:40 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY0NzA2MjB9.RicqoyHGmk43628xLimBBgL8ye4mZP5DY17SSK8Kgbg
+INFO - 2023-06-11 07:03:40 --> Verificando permisos --> : 1
+INFO - 2023-06-11 07:03:40 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686470620
+)
+
+CRITICAL - 2023-06-11 07:03:40 --> Call to undefined function App\Controllers\set_cookie()
+in APPPATH\Controllers\Auth.php on line 70.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 07:05:06 --> password --> : 15300139
+INFO - 2023-06-11 07:05:07 --> password coincide --> : 15300139
+INFO - 2023-06-11 07:05:07 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY0NzA3MDd9.qCo37pOSOKSKnRgr6YNKmbIp_DBpbXVqaIT47v1SQp4
+INFO - 2023-06-11 07:05:07 --> Verificando permisos --> : 1
+INFO - 2023-06-11 07:05:07 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686470707
+)
+
+CRITICAL - 2023-06-11 07:05:07 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 07:09:07 --> password --> : 15300139
+INFO - 2023-06-11 07:09:07 --> password coincide --> : 15300139
+INFO - 2023-06-11 07:09:07 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY0NzA5NDd9.8IGoBudKUqA9HbXYn1mrb8rG7Jgfn2w0B_7PpTGeUUE
+INFO - 2023-06-11 07:09:07 --> Verificando permisos --> : 1
+INFO - 2023-06-11 07:09:07 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686470947
+)
+
+CRITICAL - 2023-06-11 07:09:07 --> Call to a member function set() on null
+in APPPATH\Controllers\Auth.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 22:16:58 --> password --> : 67112
+INFO - 2023-06-11 22:17:10 --> password --> : 15300139
+INFO - 2023-06-11 22:17:10 --> password coincide --> : 15300139
+INFO - 2023-06-11 22:17:10 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1MjU0MzB9.aIDxKbh_WN9iX0OuGlhcfaN0DVPV5tNl7kR6cPDI6uo
+INFO - 2023-06-11 22:17:10 --> Verificando permisos --> : 1
+INFO - 2023-06-11 22:17:10 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686525430
+)
+
+CRITICAL - 2023-06-11 22:17:10 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 22:25:02 --> password --> : 15300139
+INFO - 2023-06-11 22:25:02 --> password coincide --> : 15300139
+INFO - 2023-06-11 22:25:02 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1MjU5MDJ9.tZ7-LzHKq76PIZO0FGiUl1mqtyjbuooi8Xl8TmmjYag
+INFO - 2023-06-11 22:25:02 --> Verificando permisos --> : 1
+INFO - 2023-06-11 22:25:02 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686525902
+)
+
+INFO - 2023-06-11 22:25:02 --> Prueba test : object
+INFO - 2023-06-11 22:25:02 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-11 22:25:02 --> Usuario buscado de la BD ----> : John
+ERROR - 2023-06-11 22:25:02 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «users_pkey»
+DETAIL:  Ya existe la llave (email)=(axeldx33@hotmail.com). in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:152
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\XAMPP\\htdocs...', 152)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#8 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Views.php(31): CodeIgniter\Model->insert(Array, false)
+#9 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Views->home()
+#10 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+#11 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-11 22:25:02 --> pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «users_pkey»
+DETAIL:  Ya existe la llave (email)=(axeldx33@hotmail.com).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 152.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «users_pkey»
+DETAIL:  Ya existe la llave (email)=(axeldx33@hotmail.com).', 'D:\\XAMPP\\htdocs\\codeigniter4\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 152)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("email", "password", "username") VALUES (\'axeldx33@hotmail.com\', \'15300139\', \'DimitriusPlay\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("email", "password", "username") VALUES (\'axeldx33@hotmail.com\', \'15300139\', \'DimitriusPlay\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("email", "password", "username") VALUES (\'axeldx33@hotmail.com\', \'15300139\', \'DimitriusPlay\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("email", "password", "username") VALUES (:email:, :password:, :username:)', [...], false)
+ 6 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 9 APPPATH\Controllers\Views.php(31): CodeIgniter\Model->insert([...], false)
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Views->home()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 22:25:35 --> password --> : 15300139
+INFO - 2023-06-11 22:25:35 --> password coincide --> : 15300139
+INFO - 2023-06-11 22:25:35 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1MjU5MzV9.xp3NAsk4OYCDJlGwODlbEfICAAfYwSHU1a4A9I-w7YE
+INFO - 2023-06-11 22:25:35 --> Verificando permisos --> : 1
+INFO - 2023-06-11 22:25:35 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686525935
+)
+
+INFO - 2023-06-11 22:25:35 --> Prueba test : object
+INFO - 2023-06-11 22:25:35 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-11 22:25:35 --> Usuario buscado de la BD ----> : John
+ERROR - 2023-06-11 22:25:35 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «users_pkey»
+DETAIL:  Ya existe la llave (email)=(axeldx33@hotmail.com). in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:152
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\XAMPP\\htdocs...', 152)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#8 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Views.php(31): CodeIgniter\Model->insert(Array, false)
+#9 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Views->home()
+#10 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+#11 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-11 22:25:35 --> pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «users_pkey»
+DETAIL:  Ya existe la llave (email)=(axeldx33@hotmail.com).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 152.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «users_pkey»
+DETAIL:  Ya existe la llave (email)=(axeldx33@hotmail.com).', 'D:\\XAMPP\\htdocs\\codeigniter4\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 152)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("email", "password", "username") VALUES (\'axeldx33@hotmail.com\', \'15300139\', \'DimitriusPlay\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("email", "password", "username") VALUES (\'axeldx33@hotmail.com\', \'15300139\', \'DimitriusPlay\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("email", "password", "username") VALUES (\'axeldx33@hotmail.com\', \'15300139\', \'DimitriusPlay\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("email", "password", "username") VALUES (:email:, :password:, :username:)', [...], false)
+ 6 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 9 APPPATH\Controllers\Views.php(31): CodeIgniter\Model->insert([...], false)
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Views->home()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Views))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 22:26:53 --> password --> : 15300139
+INFO - 2023-06-11 22:26:53 --> password coincide --> : 15300139
+INFO - 2023-06-11 22:26:53 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1MjYwMTN9.LYA2xqMGIpuJJvTJOrKArAVKZXqeQp_PYhlr7ymhosc
+INFO - 2023-06-11 22:26:53 --> Verificando permisos --> : 1
+INFO - 2023-06-11 22:26:53 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686526013
+)
+
+INFO - 2023-06-11 22:26:54 --> Prueba test : object
+INFO - 2023-06-11 22:26:54 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-11 22:26:54 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-11 22:32:32 --> Prueba test : object
+INFO - 2023-06-11 22:32:32 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-11 22:32:32 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-11 22:50:45 --> password --> : 15300139
+INFO - 2023-06-11 22:50:45 --> password coincide --> : 15300139
+INFO - 2023-06-11 22:50:45 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1Mjc0NDV9.9xAK6I6pBNw0MQaT1oiy1fMz7AtB0r8V40tTV2XZjrk
+INFO - 2023-06-11 22:50:45 --> Verificando permisos --> : 1
+INFO - 2023-06-11 22:50:45 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686527445
+)
+
+CRITICAL - 2023-06-11 22:50:45 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 22:52:03 --> password --> : 15300139
+INFO - 2023-06-11 22:52:03 --> password coincide --> : 15300139
+INFO - 2023-06-11 22:52:03 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1Mjc1MjN9.fDdaky9R99z_HcOdCusPbLyj6Ppyb7H2eAymZ-MO_Xw
+INFO - 2023-06-11 22:52:03 --> Verificando permisos --> : 1
+INFO - 2023-06-11 22:52:03 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686527523
+)
+
+CRITICAL - 2023-06-11 22:52:03 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 23:01:34 --> password --> : 15300139
+INFO - 2023-06-11 23:01:34 --> password coincide --> : 15300139
+INFO - 2023-06-11 23:01:34 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1MjgwOTR9.xK5sEuStb9GabcnXhXlbmF6PMeheedal-hLjBMSeLvs
+INFO - 2023-06-11 23:01:34 --> Verificando permisos --> : 1
+INFO - 2023-06-11 23:01:34 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686528094
+)
+
+CRITICAL - 2023-06-11 23:01:34 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-11 23:02:34 --> password --> : 15300139
+INFO - 2023-06-11 23:02:34 --> password coincide --> : 15300139
+INFO - 2023-06-11 23:02:34 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1MjgxNTR9.eWmoRK09M9MUEA_-1J-Dc6t4dLUwN2bGpClE76PZ6SE
+INFO - 2023-06-11 23:02:34 --> Verificando permisos --> : 1
+INFO - 2023-06-11 23:02:34 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686528154
+)
+
+CRITICAL - 2023-06-11 23:02:34 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <script src="bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            background-color: #f2f2f2;
+        }
+
+        .mlt-0 {
+            margin-left: 42px;
+            margin-right: 42px;
+        }
+
+        .mr-img-marca {
+            margin-right: 10px;
+        }
+
+        .mt-text-marca{
+            margin-top: 1px;
+        }
+
+        .text-aditional-marca{
+            margin-top: 10px;
+        }
+
+        @media (max-width: 520px) { 
+            .text-aditional-marca{
+                display: none;
+            }
+        }
+
+        .text-marca:hover{
+            color: red;
+        }
+
+        a {
+            color: black !important;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        .btn{
+            margin-left: 8%;
+            width: 80%;
+        }
+
+        .login-content{
+            margin: 8%;
+        }    
+
+        .login-content-form{
+            width: 600px;
+            height: 350px;
+            margin-top: 60px;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        @media (max-width: 1150px) { 
+            .login-content-form{
+                margin:auto;
+            }
+        }
+
+        .login-content-portada-img{
+            display: none;
+        }
+
+        @media (min-width: 1150px) { 
+            .login-content-portada-img{
+                display: inline-block;
+                width: 100%;
+                height: 450px;
+                padding-right: 85px;
+            }
+        }
+
+        .m-item-footer{
+            margin: 10px 40px;
+        }
+    </style>
+
+    <header>
+        <div class="d-flex flex-row mlt-0">
+            <div class="d-inline-flex p-2 flex-grow-1">
+                <img src="img/iconoMarca.png" class="mr-img-marca" alt="Icono marca" height="50" width="50">
+                <a href="index.html"><h1 class="mt-text-marca text-marca">VideoTrend</h1></a>
+            </div>
+            <div class="p-2 text-aditional-marca"><p>La <strong>biblioteca</strong> de tus pelis!!</p></div>
+        </div>  
+    </header>
+
+    <nav>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="registroUsuario.html">| Crear una cuenta |</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">| Olvidé mi contraseña |</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">| Acerca de nosotros |</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="d-flex flex-row justify-content-center login-content">
+            <div class="login-content-portada">
+                <img src="./img/PortadaLoginV1.jpg" class="login-content-portada-img">
+            </div>
+
+            <div class="pb-5 shadow p-3 rounded login-content-form justify-content-center"> 
+                <form action="/action_page.php" method="post"> 
+                    <div class="form-group"> 
+                        <label for="InputEmail1">Dirección de email</label> 
+                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="email"> 
+                        <small id="Help" class="form-text text-muted invisible">Tu correo estará protegido.</small> 
+                    </div>
+                    <div class="form-group"> 
+                        <label for="InputPassword1">Contraseña</label> 
+                        <input type="password" class="form-control" id="InputPassword1"> 
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block mt-4">Iniciar Sesión</button>
+                </form>
+                <hr>
+                <button type="button" class="btn btn-secondary mt-2">Crear Cuenta</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="d-flex justify-content-center bg-dark m-auto">
+            <div class="m-item-footer"><a href="https://trakt.docs.apiary.io/#reference" class="text-light">Trak API</a></div>
+            <div class="m-item-footer"><a href="https://ugd.edu.ar/es/" class="text-light">U.G.D.</a></div>
+            <div class="m-item-footer"><a href="https://campusvirtual.ugd.edu.ar/moodle/ambientizacion.php" class="text-light">Campus Virtual</a></div>
+        </div>
+    </footer>
+</body>
+</html>
+

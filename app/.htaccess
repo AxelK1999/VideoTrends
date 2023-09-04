@@ -1,0 +1,22 @@
+<IfModule authz_core_module>
+    Require all denied
+</IfModule>
+<IfModule !authz_core_module>
+    Deny from all
+</IfModule>
+<!--
+
+El bloque <IfModule authz_core_module> verifica si el módulo "authz_core" está cargado en el servidor de Apache. 
+Este módulo proporciona funcionalidad para controlar el acceso a recursos basado en diferentes criterios, como permisos y autenticación.
+Dentro de este bloque, se encuentra la directiva Require all denied, la cual indica que se niega el acceso a todos los usuarios. 
+Esto significa que cualquier solicitud de acceso al recurso o directorio se rechazará y el servidor devolverá un mensaje de error al cliente.
+
+Por otro lado, el bloque <IfModule !authz_core_module> verifica si el módulo "authz_core" NO está cargado en el servidor de Apache. 
+Si el módulo no está cargado, se ejecuta el bloque de código dentro de este bloque.
+Dentro de este bloque, se encuentra la directiva Deny from all, la cual también niega el acceso a todos los usuarios. 
+Al igual que la directiva anterior, esto significa que cualquier solicitud de acceso al recurso o directorio se rechazará y el servidor devolverá un mensaje de error.
+
+En resumen, estas configuraciones están diseñadas para denegar el acceso a todos los usuarios, ya sea utilizando el módulo "authz_core" o no. 
+Esto puede ser útil para proteger ciertos recursos o directorios en un servidor web y restringir su acceso a usuarios específicos con configuraciones adicionales.
+
+-->

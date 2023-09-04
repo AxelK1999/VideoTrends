@@ -1,0 +1,539 @@
+INFO - 2023-06-08 03:18:33 --> Estoy imprimiendo por consola el comportameintojuean
+INFO - 2023-06-08 03:18:47 --> Estoy imprimiendo por consola el comportameintojuean
+INFO - 2023-06-08 03:19:19 --> Estoy imprimiendo por consola el comportameintojuean
+INFO - 2023-06-08 03:20:35 --> Estoy imprimiendo por consola el comportameintojuean
+INFO - 2023-06-08 03:20:37 --> Estoy imprimiendo por consola el comportameintojuean
+INFO - 2023-06-08 03:20:47 --> Estoy imprimiendo por consola el comportameintojuean
+INFO - 2023-06-08 03:20:48 --> Estoy imprimiendo por consola el comportameintojuean
+CRITICAL - 2023-06-08 03:32:02 --> Call to undefined method CodeIgniter\CodeIgniter::ruan()
+in FCPATH\index.php on line 67.
+
+INFO - 2023-06-08 03:40:20 --> Estoy imprimiendo por consola el comportameintojuean
+INFO - 2023-06-08 03:43:49 --> Estoy imprimiendo por consola el comportameintojuean
+INFO - 2023-06-08 04:52:23 --> Estoy imprimiendo por consola el comportameintojuean
+INFO - 2023-06-08 04:52:24 --> Estoy imprimiendo por consola el comportameintojuean
+INFO - 2023-06-08 04:54:29 --> Estoy imprimiendo por consola el comportameintojuean
+INFO - 2023-06-08 05:02:56 --> Estoy imprimiendo por consola el comportameintojuean
+INFO - 2023-06-08 05:45:09 --> Estoy imprimiendo por consola el comportameintojuean
+CRITICAL - 2023-06-08 05:46:37 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 05:52:40 --> Class "App\Controllers\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 05:53:40 --> Class "App\Models\user\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 05:55:17 --> Class "App\Models\user\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:01:47 --> Call to a member function testFindAllUser() on null
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:03:17 --> Call to a member function testFindAllUser() on null
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:04:26 --> Call to a member function testFindAllUser() on null
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:04:53 --> Call to a member function testFindAllUser() on null
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 06:05:03 --> Call to a member function testFindAllUser() on null
+in APPPATH\Controllers\Home.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 06:08:31 --> Prueba test : NULL
+CRITICAL - 2023-06-08 06:08:31 --> Call to a member function testFindAllUser() on null
+in APPPATH\Controllers\Home.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 06:16:12 --> Prueba test : NULL
+CRITICAL - 2023-06-08 06:16:12 --> Call to a member function testFindAllUser() on null
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 06:16:31 --> Prueba test : NULL
+CRITICAL - 2023-06-08 06:16:31 --> Call to a member function testFindAllUser() on null
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 06:17:46 --> Prueba test : NULL
+CRITICAL - 2023-06-08 06:17:46 --> Call to a member function testFindAllUser() on null
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 06:18:48 --> Prueba test : NULL
+CRITICAL - 2023-06-08 06:18:48 --> Call to a member function testFindAllUser() on null
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 06:19:23 --> Prueba test : NULL
+CRITICAL - 2023-06-08 06:19:23 --> Call to a member function testFindAllUser() on null
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 08:10:47 --> Prueba test : NULL
+CRITICAL - 2023-06-08 08:10:47 --> Call to a member function testFindAllUser() on null
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 08:11:37 --> Prueba test : NULL
+CRITICAL - 2023-06-08 08:11:37 --> Call to a member function testFindAllUser() on null
+in APPPATH\Controllers\Home.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 08:14:56 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 08:19:23 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 08:20:52 --> Class "app\Models\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 08:25:04 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 08:26:08 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 08:29:01 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 08:36:10 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 08:36:14 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 08:36:54 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 08:37:56 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 08:38:04 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 08:38:43 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 21:21:02 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 21:21:03 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Home.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 21:26:59 --> Class "CodeIgniter\Database\pgsql\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pgsql', 'CodeIgniter\\Database\\pgsql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(13): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 21:28:03 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(13): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 21:32:37 --> Class "CodeIgniter\Database\pdn\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdn', 'CodeIgniter\\Database\\pdn\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(13): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 21:34:50 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(13): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 21:41:19 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(13): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 21:46:04 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(13): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 21:46:24 --> Class "CodeIgniter\Database\pdo\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Database\\pdo\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(13): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 21:53:21 --> Class "CodeIgniter\Database\pgsql\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 139.
+ 1 SYSTEMPATH\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pgsql', 'CodeIgniter\\Database\\pgsql\\Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(13): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 22:00:05 --> Prueba test : object
+ERROR - 2023-06-08 22:00:05 --> Error connecting to the database: ErrorException: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:75
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_connect(): U...', 'D:\\XAMPP\\htdocs...', 75)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(75): pg_connect('host=localhost ...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\Postgre\Connection->connect(false)
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#4 D:\XAMPP\htdocs\codeigniter4\app\Models\User.php(11): CodeIgniter\Database\BaseConnection->query('select * form u...')
+#5 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Home.php(16): App\Models\User->testFindAllUser()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-08 22:00:05 --> Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\User.php(11): CodeIgniter\Database\BaseConnection->query('select * form users')
+ 3 APPPATH\Controllers\Home.php(16): App\Models\User->testFindAllUser()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 22:09:22 --> Prueba test : object
+ERROR - 2023-06-08 22:09:22 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «form»
+LINE 1: select * form users
+                 ^ in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:152
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\XAMPP\\htdocs...', 152)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'select * form u...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('select * form u...')
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * form u...')
+#4 D:\XAMPP\htdocs\codeigniter4\app\Models\User.php(11): CodeIgniter\Database\BaseConnection->query('select * form u...')
+#5 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Home.php(16): App\Models\User->testFindAllUser()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-08 22:09:22 --> pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «form»
+LINE 1: select * form users
+                 ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 152.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «form»
+LINE 1: select * form users
+                 ^', 'D:\\XAMPP\\htdocs\\codeigniter4\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 152)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'select * form users')
+ 3 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('select * form users')
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select * form users')
+ 5 APPPATH\Models\User.php(11): CodeIgniter\Database\BaseConnection->query('select * form users')
+ 6 APPPATH\Controllers\Home.php(16): App\Models\User->testFindAllUser()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 22:10:19 --> Prueba test : object
+INFO - 2023-06-08 22:10:19 --> Prueba test : 
+CRITICAL - 2023-06-08 22:10:19 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 22:12:12 --> Prueba test : object
+INFO - 2023-06-08 22:12:12 --> Prueba test : 
+INFO - 2023-06-08 22:12:12 --> Prueba test : object
+INFO - 2023-06-08 22:12:52 --> Prueba test : object
+INFO - 2023-06-08 22:12:52 --> Prueba test : 
+INFO - 2023-06-08 22:12:52 --> Prueba test : object
+INFO - 2023-06-08 22:13:17 --> Prueba test : object
+INFO - 2023-06-08 22:13:17 --> Prueba test : 
+INFO - 2023-06-08 22:13:17 --> Prueba test ----> : object
+INFO - 2023-06-08 22:59:36 --> Prueba test : object
+CRITICAL - 2023-06-08 22:59:36 --> Undefined array key "email"
+in APPPATH\Controllers\Home.php on line 17.
+ 1 APPPATH\Controllers\Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Controllers\\Home.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 23:03:57 --> Prueba test : object
+INFO - 2023-06-08 23:03:57 --> Prueba test ----> : object
+INFO - 2023-06-08 23:06:12 --> Prueba test : object
+CRITICAL - 2023-06-08 23:06:12 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Home.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 23:07:20 --> Prueba test : object
+INFO - 2023-06-08 23:07:20 --> Prueba test ----> : string
+INFO - 2023-06-08 23:07:47 --> Prueba test : object
+INFO - 2023-06-08 23:07:47 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-08 23:41:14 --> Prueba test : object
+INFO - 2023-06-08 23:41:14 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-08 23:41:14 --> Usuario buscado de la BD ----> : array
+INFO - 2023-06-08 23:42:03 --> Prueba test : object
+INFO - 2023-06-08 23:42:03 --> Prueba test ----> : usuario1@example.com
+CRITICAL - 2023-06-08 23:42:03 --> Undefined array key 0
+in APPPATH\Controllers\Home.php on line 21.
+ 1 APPPATH\Controllers\Home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Controllers\\Home.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 23:42:26 --> Prueba test : object
+INFO - 2023-06-08 23:42:27 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-08 23:42:27 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-08 23:46:45 --> Prueba test : object
+INFO - 2023-06-08 23:46:45 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-08 23:46:45 --> Usuario buscado de la BD ----> : John
+ERROR - 2023-06-08 23:46:45 --> ErrorException: pg_query(): Query failed: ERROR:  lastval no está definido en esta sesión in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:152
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\XAMPP\\htdocs...', 152)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'SELECT LASTVAL(...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('SELECT LASTVAL(...')
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT LASTVAL(...')
+#4 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(445): CodeIgniter\Database\BaseConnection->query('SELECT LASTVAL(...')
+#5 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(335): CodeIgniter\Database\Postgre\Connection->insertID()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#8 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Model->insert(Array)
+#9 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#10 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-08 23:46:45 --> pg_query(): Query failed: ERROR:  lastval no está definido en esta sesión
+in SYSTEMPATH\Database\Postgre\Connection.php on line 152.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  lastval no está definido en esta sesión', 'D:\\XAMPP\\htdocs\\codeigniter4\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 152)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'SELECT LASTVAL() AS ins_id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('SELECT LASTVAL() AS ins_id')
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT LASTVAL() AS ins_id')
+ 5 SYSTEMPATH\Database\Postgre\Connection.php(445): CodeIgniter\Database\BaseConnection->query('SELECT LASTVAL() AS ins_id')
+ 6 SYSTEMPATH\Model.php(335): CodeIgniter\Database\Postgre\Connection->insertID()
+ 7 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Home.php(29): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 23:49:00 --> Prueba test : object
+INFO - 2023-06-08 23:49:00 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-08 23:49:00 --> Usuario buscado de la BD ----> : John
+ERROR - 2023-06-08 23:49:00 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «users_pkey»
+DETAIL:  Ya existe la llave (email)=(axelx33@hotmail.com). in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:152
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\XAMPP\\htdocs...', 152)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#8 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Model->insert(Array)
+#9 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#10 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-08 23:49:00 --> pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «users_pkey»
+DETAIL:  Ya existe la llave (email)=(axelx33@hotmail.com).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 152.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «users_pkey»
+DETAIL:  Ya existe la llave (email)=(axelx33@hotmail.com).', 'D:\\XAMPP\\htdocs\\codeigniter4\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 152)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("email", "password", "username") VALUES (\'axelx33@hotmail.com\', \'15300139\', \'DimitriusPlay\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("email", "password", "username") VALUES (\'axelx33@hotmail.com\', \'15300139\', \'DimitriusPlay\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("email", "password", "username") VALUES (\'axelx33@hotmail.com\', \'15300139\', \'DimitriusPlay\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("email", "password", "username") VALUES (:email:, :password:, :username:)', [...], false)
+ 6 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Home.php(29): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 23:51:09 --> Prueba test : object
+INFO - 2023-06-08 23:51:09 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-08 23:51:09 --> Usuario buscado de la BD ----> : John
+ERROR - 2023-06-08 23:51:09 --> ErrorException: pg_query(): Query failed: ERROR:  lastval no está definido en esta sesión in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:152
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\XAMPP\\htdocs...', 152)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'SELECT LASTVAL(...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('SELECT LASTVAL(...')
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT LASTVAL(...')
+#4 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(445): CodeIgniter\Database\BaseConnection->query('SELECT LASTVAL(...')
+#5 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(335): CodeIgniter\Database\Postgre\Connection->insertID()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#8 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Model->insert(Array)
+#9 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#10 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-08 23:51:09 --> pg_query(): Query failed: ERROR:  lastval no está definido en esta sesión
+in SYSTEMPATH\Database\Postgre\Connection.php on line 152.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  lastval no está definido en esta sesión', 'D:\\XAMPP\\htdocs\\codeigniter4\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 152)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'SELECT LASTVAL() AS ins_id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('SELECT LASTVAL() AS ins_id')
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT LASTVAL() AS ins_id')
+ 5 SYSTEMPATH\Database\Postgre\Connection.php(445): CodeIgniter\Database\BaseConnection->query('SELECT LASTVAL() AS ins_id')
+ 6 SYSTEMPATH\Model.php(335): CodeIgniter\Database\Postgre\Connection->insertID()
+ 7 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Home.php(29): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-08 23:56:47 --> Prueba test : object
+INFO - 2023-06-08 23:56:47 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-08 23:56:47 --> Usuario buscado de la BD ----> : John
+ERROR - 2023-06-08 23:56:47 --> ErrorException: pg_query(): Query failed: ERROR:  lastval no está definido en esta sesión in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:152
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\XAMPP\\htdocs...', 152)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'SELECT LASTVAL(...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('SELECT LASTVAL(...')
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT LASTVAL(...')
+#4 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(445): CodeIgniter\Database\BaseConnection->query('SELECT LASTVAL(...')
+#5 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(335): CodeIgniter\Database\Postgre\Connection->insertID()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#8 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Home.php(32): CodeIgniter\Model->insert(Array)
+#9 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#10 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-08 23:56:47 --> pg_query(): Query failed: ERROR:  lastval no está definido en esta sesión
+in SYSTEMPATH\Database\Postgre\Connection.php on line 152.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  lastval no está definido en esta sesión', 'D:\\XAMPP\\htdocs\\codeigniter4\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 152)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'SELECT LASTVAL() AS ins_id')
+ 3 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('SELECT LASTVAL() AS ins_id')
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT LASTVAL() AS ins_id')
+ 5 SYSTEMPATH\Database\Postgre\Connection.php(445): CodeIgniter\Database\BaseConnection->query('SELECT LASTVAL() AS ins_id')
+ 6 SYSTEMPATH\Model.php(335): CodeIgniter\Database\Postgre\Connection->insertID()
+ 7 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Home.php(32): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

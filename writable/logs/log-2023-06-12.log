@@ -1,0 +1,381 @@
+INFO - 2023-06-12 03:41:42 --> password --> : 15300139
+INFO - 2023-06-12 03:41:42 --> password coincide --> : 15300139
+INFO - 2023-06-12 03:41:42 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1NDQ5MDJ9.SW7Si1mMYGlR6UeVOuqQb1J5yHvLfzKQnHEzhaK2j4o
+INFO - 2023-06-12 03:41:42 --> Verificando permisos --> : 1
+INFO - 2023-06-12 03:41:42 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686544902
+)
+
+CRITICAL - 2023-06-12 03:41:42 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-12 03:45:18 --> password --> : 15300139
+INFO - 2023-06-12 03:45:18 --> password coincide --> : 15300139
+INFO - 2023-06-12 03:45:18 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1NDUxMTh9.OEvpQUm7yu34wE7_fjUpo08toBi7hpWeZOhOzyOQ_1s
+INFO - 2023-06-12 03:45:18 --> Verificando permisos --> : 1
+INFO - 2023-06-12 03:45:18 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686545118
+)
+
+CRITICAL - 2023-06-12 03:45:18 --> The action you requested is not allowed.
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 738.
+ 1 SYSTEMPATH\HTTP\ResponseTrait.php(738): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(728): CodeIgniter\HTTP\Response->dispatchCookies()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(447): CodeIgniter\HTTP\Response->sendCookies()
+ 4 SYSTEMPATH\CodeIgniter.php(1123): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(554): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-12 03:59:07 --> password --> : 15300139
+INFO - 2023-06-12 03:59:07 --> password coincide --> : 15300139
+INFO - 2023-06-12 03:59:07 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1NDU5NDd9.KeMLB-_l909Q_Aq37KRIx-KdVaf6Y9JKs4pjgcrwp6o
+INFO - 2023-06-12 03:59:07 --> Verificando permisos --> : 1
+INFO - 2023-06-12 03:59:07 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686545947
+)
+
+INFO - 2023-06-12 03:59:08 --> Prueba test : object
+INFO - 2023-06-12 03:59:08 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-12 03:59:08 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-12 04:00:58 --> password --> : 15300139
+INFO - 2023-06-12 04:00:58 --> password coincide --> : 15300139
+INFO - 2023-06-12 04:00:58 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1NDYwNTh9.Pw8mvsAKpFBzuf1Kn7AzkPw6I2qde3G0McEYhpzIuNY
+INFO - 2023-06-12 04:00:58 --> Verificando permisos --> : 1
+INFO - 2023-06-12 04:00:58 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686546058
+)
+
+INFO - 2023-06-12 04:00:58 --> Prueba test : object
+INFO - 2023-06-12 04:00:58 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-12 04:00:58 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-12 04:03:47 --> password --> : 15300139
+INFO - 2023-06-12 04:03:48 --> password coincide --> : 15300139
+INFO - 2023-06-12 04:03:48 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1NDYyMjh9.YSb4mXJD3NQUen7uWJ_5fEkEqz6xXaBj5cXpRFmlYrA
+INFO - 2023-06-12 04:03:48 --> Verificando permisos --> : 1
+INFO - 2023-06-12 04:03:48 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686546228
+)
+
+INFO - 2023-06-12 04:03:48 --> Prueba test : object
+INFO - 2023-06-12 04:03:48 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-12 04:03:48 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-12 04:04:50 --> password --> : 15300139
+INFO - 2023-06-12 04:04:50 --> password coincide --> : 15300139
+INFO - 2023-06-12 04:04:50 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1NDYyOTB9.0j2o2B3RHrR3oIqaZzrMsmrB-2vCM9QGDw0ItlLmGpk
+INFO - 2023-06-12 04:04:50 --> Verificando permisos --> : 1
+INFO - 2023-06-12 04:04:50 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686546290
+)
+
+INFO - 2023-06-12 04:04:50 --> Prueba test : object
+INFO - 2023-06-12 04:04:50 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-12 04:04:50 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-12 04:07:51 --> password --> : 15300139
+INFO - 2023-06-12 04:07:51 --> Permisos --> : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1NDY0NzF9.OuzY9N7KGs1vXQwJr7M8Xm2MI9dekUxZPkdlg3OHrNg
+INFO - 2023-06-12 04:07:51 --> Verificando permisos --> : 1
+INFO - 2023-06-12 04:07:51 --> Decodificando permisos --> : Array
+(
+    [email] => axelx33@hotmail.com
+    [exp] => 1686546471
+)
+
+INFO - 2023-06-12 04:07:51 --> Prueba test : object
+INFO - 2023-06-12 04:07:51 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-12 04:07:51 --> Usuario buscado de la BD ----> : John
+CRITICAL - 2023-06-12 05:15:40 --> "Auth" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:18:41 --> "Auth" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('Auth')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('Auth', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:18:42 --> "App\Controllers\Auth" must implement CodeIgniter\Filters\FilterInterface.
+in SYSTEMPATH\Filters\Filters.php on line 169.
+ 1 SYSTEMPATH\Filters\Filters.php(169): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('App\\Controllers\\Auth')
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:18:43 --> "App\Controllers\Auth" must implement CodeIgniter\Filters\FilterInterface.
+in SYSTEMPATH\Filters\Filters.php on line 169.
+ 1 SYSTEMPATH\Filters\Filters.php(169): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('App\\Controllers\\Auth')
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:18:45 --> "App\Controllers\Auth" must implement CodeIgniter\Filters\FilterInterface.
+in SYSTEMPATH\Filters\Filters.php on line 169.
+ 1 SYSTEMPATH\Filters\Filters.php(169): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('App\\Controllers\\Auth')
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:18:49 --> "App\Controllers\Auth" must implement CodeIgniter\Filters\FilterInterface.
+in SYSTEMPATH\Filters\Filters.php on line 169.
+ 1 SYSTEMPATH\Filters\Filters.php(169): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('App\\Controllers\\Auth')
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:23:33 --> "App\Controllers\Auth" must implement CodeIgniter\Filters\FilterInterface.
+in SYSTEMPATH\Filters\Filters.php on line 169.
+ 1 SYSTEMPATH\Filters\Filters.php(169): CodeIgniter\Filters\Exceptions\FilterException::forIncorrectInterface('App\\Controllers\\Auth')
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:24:43 --> Class "App\Filters\Auth" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:25:06 --> Method name must be a string
+in APPPATH\Filters\Auth.php on line 13.
+ 1 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:25:36 --> Method name must be a string
+in APPPATH\Filters\Auth.php on line 13.
+ 1 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:30:18 --> Array callback must have exactly two elements
+in APPPATH\Filters\Auth.php on line 13.
+ 1 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:30:46 --> Array callback must have exactly two elements
+in APPPATH\Filters\Auth.php on line 13.
+ 1 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-12 05:31:13 --> eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1NTA1NDB9.ViVlEn8wrq6Wt4BDR3GH3lfjiWs-BWzwqTI3hIrk0Pk
+INFO - 2023-06-12 05:31:56 --> DDDDDDeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1NTA1NDB9.ViVlEn8wrq6Wt4BDR3GH3lfjiWs-BWzwqTI3hIrk0Pk
+INFO - 2023-06-12 05:31:56 --> DDDDDDeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1NTE1MTZ9.atj2eL1hWYwQgYghQI-sbh9pvIqC-8btm31yap1Rdok
+INFO - 2023-06-12 05:31:56 --> Prueba test : object
+INFO - 2023-06-12 05:31:56 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-12 05:31:56 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-12 05:35:42 --> DDDDDDeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODY1NTE1MTZ9.atj2eL1hWYwQgYghQI-sbh9pvIqC-8btm31yap1Rdok
+INFO - 2023-06-12 05:35:42 --> Prueba test : object
+INFO - 2023-06-12 05:35:42 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-12 05:35:42 --> Usuario buscado de la BD ----> : John
+CRITICAL - 2023-06-12 05:36:03 --> Undefined array key "permiso"
+in APPPATH\Filters\Auth.php on line 14.
+ 1 APPPATH\Filters\Auth.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "permiso"', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Filters\\Auth.php', 14)
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/home', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:40:37 --> Undefined array key "permiso"
+in APPPATH\Filters\Auth.php on line 18.
+ 1 APPPATH\Filters\Auth.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "permiso"', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Filters\\Auth.php', 18)
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/home', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:40:48 --> The route for "/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(15): redirect('/api/1.0/views/login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/home', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:41:22 --> The route for "http://localhost/codeigniter4/public/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(15): redirect('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/home', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:41:46 --> The route for "login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(15): redirect('login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/home', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:41:57 --> The route for "views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(15): redirect('views/login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/home', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:42:57 --> The route for "http://localhost/codeigniter4/public/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(15): redirect('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/home', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:43:07 --> The route for "http://localhost/codeigniter4/public/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(15): redirect('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:43:20 --> The route for "http://localhost/codeigniter4/public/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(15): redirect('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:43:36 --> The route for "http://localhost/codeigniter4/public/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(15): redirect('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:44:08 --> The route for "http://localhost/codeigniter4/public/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(15): redirect('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:44:26 --> The route for "http://localhost/codeigniter4/public/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(15): redirect('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:45:22 --> The route for "http://localhost/codeigniter4/public/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(15): redirect('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:45:29 --> The route for "http://localhost/codeigniter4/public/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(15): redirect('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:45:43 --> The route for "http://localhost/codeigniter4/public/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(15): redirect('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/home', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:46:07 --> The route for "http://localhost/codeigniter4/public/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(15): redirect('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/home', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:47:07 --> The route for "http://localhost/codeigniter4/public/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(15): redirect('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:47:59 --> Undefined array key "permiso"
+in APPPATH\Filters\Auth.php on line 18.
+ 1 APPPATH\Filters\Auth.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "permiso"', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Filters\\Auth.php', 18)
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:51:05 --> The route for "codeingater4/public/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('codeingater4/public/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(16): redirect('codeingater4/public/api/1.0/views/login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:51:24 --> The route for "http://localhost/codeigniter4/public/api/1.0/views/login" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Filters\Auth.php(16): redirect('http://localhost/codeigniter4/public/api/1.0/views/login')
+ 4 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 05:59:08 --> Could not check compatibility between App\Filters\Auth::after(CodeIgniter\HTTP\RequestInterface $request, App\Filters\ResponseInterface $response, $arguments = null) and CodeIgniter\Filters\FilterInterface::after(CodeIgniter\HTTP\RequestInterface $request, CodeIgniter\HTTP\ResponseInterface $response, $arguments = null), because class App\Filters\ResponseInterface is not available
+in APPPATH\Filters\Auth.php on line 29.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-12 06:05:00 --> Undefined array key "permiso"
+in APPPATH\Filters\Auth.php on line 22.
+ 1 APPPATH\Filters\Auth.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "permiso"', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Filters\\Auth.php', 22)
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 06:06:24 --> Undefined array key "permiso"
+in APPPATH\Filters\Auth.php on line 23.
+ 1 APPPATH\Filters\Auth.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "permiso"', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Filters\\Auth.php', 23)
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 06:06:36 --> Undefined array key "permiso"
+in APPPATH\Filters\Auth.php on line 23.
+ 1 APPPATH\Filters\Auth.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "permiso"', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Filters\\Auth.php', 23)
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/1.0/views/login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

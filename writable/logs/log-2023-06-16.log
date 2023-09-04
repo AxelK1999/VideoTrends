@@ -1,0 +1,44 @@
+INFO - 2023-06-16 21:36:17 --> --Errores de Validacion :  The email field is required.
+CRITICAL - 2023-06-16 21:37:05 --> Undefined array key "email"
+in APPPATH\Filters\Filter.php on line 57.
+ 1 APPPATH\Filters\Filter.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Filters\\Filter.php', 57)
+ 2 APPPATH\Controllers\Auth.php(66): App\Filters\Filter::validateDatesUserRegister(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 21:41:48 --> Array to string conversion
+in APPPATH\Filters\Filter.php on line 57.
+ 1 APPPATH\Filters\Filter.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Filters\\Filter.php', 57)
+ 2 APPPATH\Controllers\Auth.php(66): App\Filters\Filter::validateDatesUserRegister(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 21:44:14 --> Array to string conversion
+in APPPATH\Filters\Filter.php on line 57.
+ 1 APPPATH\Filters\Filter.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Filters\\Filter.php', 57)
+ 2 APPPATH\Controllers\Auth.php(66): App\Filters\Filter::validateDatesUserRegister(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-16 22:00:49 --> Undefined array key "password"
+in APPPATH\Filters\Filter.php on line 63.
+ 1 APPPATH\Filters\Filter.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Filters\\Filter.php', 63)
+ 2 APPPATH\Controllers\Auth.php(66): App\Filters\Filter::validateDatesUserRegister(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-16 22:02:50 -->  query =  ?email=The email field is required.&
+CRITICAL - 2023-06-16 22:05:17 --> Array to string conversion
+in APPPATH\Filters\Filter.php on line 62.
+ 1 APPPATH\Filters\Filter.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Filters\\Filter.php', 62)
+ 2 APPPATH\Controllers\Auth.php(66): App\Filters\Filter::validateDatesUserRegister(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-16 22:23:21 -->  query =  ?email=-5&
+INFO - 2023-06-16 22:29:43 -->  query =  ?email=-5

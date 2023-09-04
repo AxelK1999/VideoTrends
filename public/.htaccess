@@ -1,0 +1,80 @@
+# Disable directory browsing
+Options -Indexes
+
+# ----------------------------------------------------------------------
+# Rewrite engine
+# ----------------------------------------------------------------------
+
+# Turning on the rewrite engine is necessary for the following rules and features.
+# FollowSymLinks must be enabled for this to work.
+<IfModule mod_rewrite.c>
+	Options +FollowSymlinks
+	RewriteEngine On
+
+	# If you installed CodeIgniter in a subfolder, you will need to
+	# change the following line to match the subfolder you need.
+	# http://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritebase
+	# RewriteBase /
+
+	# Redirect Trailing Slashes...
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_URI} (.+)/$
+	RewriteRule ^ %1 [L,R=301]
+
+	# Rewrite "www.example.com -> example.com"
+	RewriteCond %{HTTPS} !=on
+	RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+	RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+
+	# Checks to see if the user is attempting to access a valid file,
+	# such as an image or css document, if this isn't true it sends the
+	# request to the front controller, index.php
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^([\s\S]*)$ index.php/$1 [L,NC,QSA]
+
+	# Ensure Authorization header is passed along
+	RewriteCond %{HTTP:Authorization} .
+	RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+	# If we don't have mod_rewrite installed, all 404's
+	# can be sent to index.php, and everything works as normal.
+	ErrorDocument 404 index.php
+</IfModule>
+
+# Disable server signature start
+	ServerSignature Off
+# Disable server signature end
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ public/$1 [L]
+
+#La directiva Options -Indexes desactiva la funcionalidad de navegación de directorios. 
+#Esto significa que si alguien intenta acceder a una URL que corresponde a un directorio en el servidor web y no hay un archivo index específico presente en ese directorio, se mostrará un error de "403 Forbidden" en lugar de mostrar el contenido del directorio.
+
+#A continuación, se habilita el motor de reescritura de Apache mediante el bloque <IfModule mod_rewrite.c>. 
+#Esto es necesario para las siguientes reglas y características de reescritura de URL.
+#Dentro de este bloque, se activa la opción FollowSymLinks y se habilita el motor de reescritura con la directiva RewriteEngine On.
+
+#Luego, se presentan varias reglas de reescritura que manipulan las URL entrantes y redirigen o reescriben según ciertos criterios:
+
+#La regla RewriteCond %{REQUEST_FILENAME} !-d verifica si la solicitud no corresponde a un directorio existente.
+#La regla RewriteCond %{REQUEST_URI} (.+)/$ verifica si la solicitud tiene una barra diagonal al final.
+#La regla RewriteRule ^ %1 [L,R=301] redirige la solicitud eliminando la barra diagonal final.
+#A continuación, hay una regla de reescritura que redirige cualquier solicitud que comienza con "www." a la versión sin "www." de la URL.
+
+#Después, se presentan reglas de reescritura que se aplican si la solicitud no corresponde a un archivo existente ni a un directorio existente. 
+#Estas reglas envían la solicitud al controlador frontal, que en este caso es el archivo "index.php".
+
+#Finalmente, se asegura de que se pase la cabecera de autorización en las solicitudes mediante las últimas reglas de reescritura.
+
+#El bloque <IfModule !mod_rewrite.c> se ejecuta si el módulo de reescritura de Apache no está cargado en el servidor. 
+#En este caso, se configura la página de error "404 Not Found" para redirigir a "index.php" en caso de que se produzca un error de página no encontrada.
+
+#Por último, las directivas ServerSignature Off desactivan la información de firma del servidor en las respuestas HTTP, lo que ayuda a aumentar la seguridad ocultando detalles del servidor.
+
+#Estas configuraciones adicionales ayudan a mejorar la seguridad y funcionalidad del servidor web Apache.

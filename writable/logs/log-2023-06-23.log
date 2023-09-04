@@ -1,0 +1,179 @@
+INFO - 2023-06-23 03:10:23 --> --Soy el filtro encontre estos permisos : 
+INFO - 2023-06-23 04:21:36 --> PaswordHash --> : $2y$10$mDOs79KejlZsjMJ31x649uStoi3xKPHtZWalsMTj5lKkpTltgAgVK
+ERROR - 2023-06-23 04:21:38 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: Host desconocido.  in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\XAMPP\\htdocs...', 1863)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1863): fsockopen('tls://ssl://smt...', 465, NULL, NULL, 5)
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Auth.php(114): CodeIgniter\Email\Email->send()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-06-23 04:21:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-23 04:21:38 --> 
+INFO - 2023-06-23 04:21:38 --> Error al enviar el correo.
+INFO - 2023-06-23 04:25:21 --> PaswordHash --> : $2y$10$dQmTXrlb2wCrD56qUSsx/OZbuuw7SRZE7THsuuVZXN2irOQKr0g6q
+ERROR - 2023-06-23 04:25:23 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for ssl failed: Host desconocido.  in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'D:\\XAMPP\\htdocs...', 1863)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1863): fsockopen('tls://ssl://smt...', 465, NULL, NULL, 5)
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Auth.php(114): CodeIgniter\Email\Email->send()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-06-23 04:25:23 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-23 04:25:23 --> 
+INFO - 2023-06-23 04:25:23 --> Error al enviar el correo.
+INFO - 2023-06-23 04:29:19 --> PaswordHash --> : $2y$10$VQxWAgpfAf1CCs8GQySAy.KW/eTHR8znPJCiLOPRiQ3cRNskr/mwW
+INFO - 2023-06-23 04:29:21 --> Correo enviado exitosamente
+INFO - 2023-06-23 05:46:32 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODc1MDI3OTJ9.YVYrUXkGCSUrWit8vClowIkuo96sdfN11TGIugRd2Vs
+INFO - 2023-06-23 05:46:32 --> Prueba test : object
+INFO - 2023-06-23 05:46:32 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-23 05:46:32 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-23 05:48:04 --> axelx33@hotmail.com
+INFO - 2023-06-23 06:01:33 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODc1MDI3OTJ9.YVYrUXkGCSUrWit8vClowIkuo96sdfN11TGIugRd2Vs
+INFO - 2023-06-23 06:01:33 --> Prueba test : object
+INFO - 2023-06-23 06:01:33 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-23 06:01:33 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-23 06:02:17 --> PaswordHash --> : $2y$10$Z.E7ZMhA/1ufQMuEEQevBuemV6wdTuHSfP1bwd5r1PAUKhS.H74/q
+INFO - 2023-06-23 06:02:19 --> Correo enviado exitosamente
+CRITICAL - 2023-06-23 06:02:43 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\Auth.php(134): CodeIgniter\Model->update('axelx3333@hotmail.com', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->validateRegisteredAccount()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-23 06:04:25 --> cuenta validada
+INFO - 2023-06-23 06:06:45 --> PaswordHash --> : $2y$10$7JxP6gzpIcc/pSn9E/XOuO9iGstGnrkl4xl8Kg7P146eXqUCTWvrq
+INFO - 2023-06-23 06:06:47 --> Correo enviado exitosamente
+INFO - 2023-06-23 06:06:58 --> cuenta validada
+INFO - 2023-06-23 06:10:37 --> PaswordHash --> : $2y$10$V7kP4FQkdYIv2TMfP5rPoeEytXR.DyFh9R0yAxyx/8i.wjKbsp5Ba
+ERROR - 2023-06-23 06:10:37 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo date: «aa-mm-dd»
+LINE 1: ...ee@example.com', 'Alan 33', '', '', '', NULL, '', 'aa-mm-dd'...
+                                                             ^ in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:152
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\XAMPP\\htdocs...', 152)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#8 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Auth.php(74): CodeIgniter\Model->insert(Array, false)
+#9 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+#10 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-23 06:10:37 --> pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo date: «aa-mm-dd»
+LINE 1: ...ee@example.com', 'Alan 33', '', '', '', NULL, '', 'aa-mm-dd'...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 152.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo date: «aa-mm-dd»
+LINE 1: ...ee@example.com\', \'Alan 33\', \'\', \'\', \'\', NULL, \'\', \'aa-mm-dd\'...
+                                                             ^', 'D:\\XAMPP\\htdocs\\codeigniter4\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 152)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("password", "email", "username", "name", "lastname", "address", "gender", "phonenumber", "birthdate", "validated") VALUES (\'$2y$10$V7kP4FQkdYIv2TMfP5rPoeEytXR.DyFh9R0yAxyx/8i.wjKbsp5Ba\', \'TuPutaMadreeee@example.com\', \'Alan 33\', \'\', \'\', \'\', NULL, \'\', \'aa-mm-dd\', FALSE)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("password", "email", "username", "name", "lastname", "address", "gender", "phonenumber", "birthdate", "validated") VALUES (\'$2y$10$V7kP4FQkdYIv2TMfP5rPoeEytXR.DyFh9R0yAxyx/8i.wjKbsp5Ba\', \'TuPutaMadreeee@example.com\', \'Alan 33\', \'\', \'\', \'\', NULL, \'\', \'aa-mm-dd\', FALSE)')
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("password", "email", "username", "name", "lastname", "address", "gender", "phonenumber", "birthdate", "validated") VALUES (\'$2y$10$V7kP4FQkdYIv2TMfP5rPoeEytXR.DyFh9R0yAxyx/8i.wjKbsp5Ba\', \'TuPutaMadreeee@example.com\', \'Alan 33\', \'\', \'\', \'\', NULL, \'\', \'aa-mm-dd\', FALSE)')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("password", "email", "username", "name", "lastname", "address", "gender", "phonenumber", "birthdate", "validated") VALUES (:password:, :email:, :username:, :name:, :lastname:, :address:, :gender:, :phonenumber:, :birthdate:, :validated:)', [...], false)
+ 6 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 9 APPPATH\Controllers\Auth.php(74): CodeIgniter\Model->insert([...], false)
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-23 06:12:15 --> PaswordHash --> : $2y$10$L3ql2OkRU6JG2jtW5AVEl.ARmFl4SBj4ABN9bBuDstig2asZR7W56
+ERROR - 2023-06-23 06:12:15 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo date: «»
+LINE 1: ...ee@example.com', 'Alan 33', '', '', '', NULL, '', '', FALSE)
+                                                             ^ in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:152
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\XAMPP\\htdocs...', 152)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#8 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Auth.php(74): CodeIgniter\Model->insert(Array, false)
+#9 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+#10 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-23 06:12:15 --> pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo date: «»
+LINE 1: ...ee@example.com', 'Alan 33', '', '', '', NULL, '', '', FALSE)
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 152.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para tipo date: «»
+LINE 1: ...ee@example.com\', \'Alan 33\', \'\', \'\', \'\', NULL, \'\', \'\', FALSE)
+                                                             ^', 'D:\\XAMPP\\htdocs\\codeigniter4\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 152)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("password", "email", "username", "name", "lastname", "address", "gender", "phonenumber", "birthdate", "validated") VALUES (\'$2y$10$L3ql2OkRU6JG2jtW5AVEl.ARmFl4SBj4ABN9bBuDstig2asZR7W56\', \'TuPutaMadreeee@example.com\', \'Alan 33\', \'\', \'\', \'\', NULL, \'\', \'\', FALSE)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("password", "email", "username", "name", "lastname", "address", "gender", "phonenumber", "birthdate", "validated") VALUES (\'$2y$10$L3ql2OkRU6JG2jtW5AVEl.ARmFl4SBj4ABN9bBuDstig2asZR7W56\', \'TuPutaMadreeee@example.com\', \'Alan 33\', \'\', \'\', \'\', NULL, \'\', \'\', FALSE)')
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("password", "email", "username", "name", "lastname", "address", "gender", "phonenumber", "birthdate", "validated") VALUES (\'$2y$10$L3ql2OkRU6JG2jtW5AVEl.ARmFl4SBj4ABN9bBuDstig2asZR7W56\', \'TuPutaMadreeee@example.com\', \'Alan 33\', \'\', \'\', \'\', NULL, \'\', \'\', FALSE)')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("password", "email", "username", "name", "lastname", "address", "gender", "phonenumber", "birthdate", "validated") VALUES (:password:, :email:, :username:, :name:, :lastname:, :address:, :gender:, :phonenumber:, :birthdate:, :validated:)', [...], false)
+ 6 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 9 APPPATH\Controllers\Auth.php(74): CodeIgniter\Model->insert([...], false)
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-23 06:12:56 --> PaswordHash --> : $2y$10$q.5QoGE/7YcXClImK7svo.eQvk2ia5RkC9C95kARdcI3jsur3DRz6
+INFO - 2023-06-23 06:12:59 --> Correo enviado exitosamente
+INFO - 2023-06-23 06:13:31 --> cuenta validada
+INFO - 2023-06-23 06:14:24 --> PaswordHash --> : $2y$10$vReOEY7WHUOaV7o0dL9ZnuwvmcirM5MCR9gVc5p6KYELSPrkBVEsO
+INFO - 2023-06-23 06:14:27 --> Correo enviado exitosamente
+INFO - 2023-06-23 06:27:17 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InVzdWFyaW8zOTk5OTk5OUBleGFtcGxlLmNvbSIsImV4cCI6MTY4NzUwNTIzN30.dF7fEy2NsmqrB78zCbxGAfd1FCda4-M2-3zW-xsSITo
+INFO - 2023-06-23 06:27:17 --> Prueba test : object
+INFO - 2023-06-23 06:27:17 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-23 06:27:17 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-23 06:28:31 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InVzdWFyaW8zOTk5OTk5OUBleGFtcGxlLmNvbSIsImV4cCI6MTY4NzUwNTMxMX0.MtbsgQkCgpS6RVnn-xQGorkaH-qln4KrTtCJEIMOvmA
+INFO - 2023-06-23 06:28:31 --> Prueba test : object
+INFO - 2023-06-23 06:28:31 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-23 06:28:31 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-23 06:33:33 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InVzdWFyaW8zOTk5OTk5OUBleGFtcGxlLmNvbSIsImV4cCI6MTY4NzUwNTYxMn0.7fhY_2W3yKJiTc3zCcRVkzWQHiOoMwp1bTOOf4xEjyk
+INFO - 2023-06-23 06:33:33 --> Prueba test : object
+INFO - 2023-06-23 06:33:33 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-23 06:33:33 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-23 06:34:29 --> Validado ? --> f
+INFO - 2023-06-23 06:34:29 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InVzdWFyaW8zOTk5OTk5OUBleGFtcGxlLmNvbSIsImV4cCI6MTY4NzUwNTY2OX0.6JpA9q1IATzNEx7yyrkPz6mAFXGga_dss5xDAwLeLKY
+INFO - 2023-06-23 06:34:29 --> Prueba test : object
+INFO - 2023-06-23 06:34:30 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-23 06:34:30 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-23 06:37:12 --> cuenta validada
+INFO - 2023-06-23 06:37:37 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InVzdWFyaW8zOTk5OTk5OUBleGFtcGxlLmNvbSIsImV4cCI6MTY4NzUwNTg1N30.uX_hiJYXQI4uFBiH9920wuua7kMz36z9sf_qVJeoj4E
+INFO - 2023-06-23 06:37:37 --> Prueba test : object
+INFO - 2023-06-23 06:37:37 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-23 06:37:37 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-23 06:38:12 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODc1MDU4OTF9.wIRidZdSy3iF7I-kM2F03jet_wEqo21V4FTclVlpufM
+INFO - 2023-06-23 06:38:12 --> Prueba test : object
+INFO - 2023-06-23 06:38:12 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-23 06:38:12 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-23 06:46:17 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzNAaG90bWFpbC5jb20iLCJleHAiOjE2ODc1MDYzNzd9.JG8Xskkw7hQWAJhiDxdxNvKkiByZKIpSmhOfnrIeqP4
+INFO - 2023-06-23 06:46:17 --> Prueba test : object
+INFO - 2023-06-23 06:46:17 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-23 06:46:18 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-23 06:49:12 --> PaswordHash --> : $2y$10$qpwPUQKEODCZuCS2shx4XuUx8t4crK.BotJZKk6zHT5datf9pVV4K
+INFO - 2023-06-23 06:49:15 --> Correo enviado exitosamente
+INFO - 2023-06-23 06:49:23 --> cuenta validada
+INFO - 2023-06-23 06:49:36 --> --Soy el filtro encontre estos permisos : eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImF4ZWx4MzMzQGhvdG1haWwuY29tIiwiZXhwIjoxNjg3NTA2NTc2fQ.S5uMlZMJ9pw_8MBeJ-x21OLnChGvcvbqZZTkWXD3zCY
+INFO - 2023-06-23 06:49:36 --> Prueba test : object
+INFO - 2023-06-23 06:49:37 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-23 06:49:37 --> Usuario buscado de la BD ----> : John

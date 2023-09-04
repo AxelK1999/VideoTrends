@@ -1,0 +1,595 @@
+CRITICAL - 2023-07-04 01:11:54 --> There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 294.
+ 1 SYSTEMPATH\Model.php(294): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 APPPATH\Controllers\Auth.php(84): CodeIgniter\Model->insert([...], false)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-04 01:15:02 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «validated» en la relación «users»
+LINE 1: ... &quot;address&quot;, &quot;gender&quot;, &quot;phonenumber&quot;, &quot;birthdate&quot;, &quot;validated...
+                                                             ^ in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:152
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\XAMPP\\htdocs...', 152)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#8 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Auth.php(84): CodeIgniter\Model->insert(Array, false)
+#9 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+#10 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-04 01:15:02 --> pg_query(): Query failed: ERROR:  no existe la columna «validated» en la relación «users»
+LINE 1: ... &quot;address&quot;, &quot;gender&quot;, &quot;phonenumber&quot;, &quot;birthdate&quot;, &quot;validated...
+                                                             ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 152.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «validated» en la relación «users»
+LINE 1: ... &quot;address&quot;, &quot;gender&quot;, &quot;phonenumber&quot;, &quot;birthdate&quot;, &quot;validated...
+                                                             ^', 'D:\\XAMPP\\htdocs\\codeigniter4\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 152)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("password", "email", "username", "name", "lastname", "address", "gender", "phonenumber", "birthdate", "validated") VALUES (\'$2y$10$/4CMz8qQzUY.51eLLhHiOuzdwlxaCDeZbFyCpWrsJ1lRBTO9.UdZm\', \'axelx33@hotmail.com\', \'DimitriusPlay\', \'Axel\', \'Kaechele\', \'Chacra 127 calle 60 casa 29\', \'M\', \'376439700\', \'1999-12-15\', FALSE)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("password", "email", "username", "name", "lastname", "address", "gender", "phonenumber", "birthdate", "validated") VALUES (\'$2y$10$/4CMz8qQzUY.51eLLhHiOuzdwlxaCDeZbFyCpWrsJ1lRBTO9.UdZm\', \'axelx33@hotmail.com\', \'DimitriusPlay\', \'Axel\', \'Kaechele\', \'Chacra 127 calle 60 casa 29\', \'M\', \'376439700\', \'1999-12-15\', FALSE)')
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("password", "email", "username", "name", "lastname", "address", "gender", "phonenumber", "birthdate", "validated") VALUES (\'$2y$10$/4CMz8qQzUY.51eLLhHiOuzdwlxaCDeZbFyCpWrsJ1lRBTO9.UdZm\', \'axelx33@hotmail.com\', \'DimitriusPlay\', \'Axel\', \'Kaechele\', \'Chacra 127 calle 60 casa 29\', \'M\', \'376439700\', \'1999-12-15\', FALSE)')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("password", "email", "username", "name", "lastname", "address", "gender", "phonenumber", "birthdate", "validated") VALUES (:password:, :email:, :username:, :name:, :lastname:, :address:, :gender:, :phonenumber:, :birthdate:, :validated:)', [...], false)
+ 6 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 9 APPPATH\Controllers\Auth.php(84): CodeIgniter\Model->insert([...], false)
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 01:19:16 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 01:20:14 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 01:20:58 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 01:21:20 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 01:23:39 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 01:49:37 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 01:50:19 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 01:51:15 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 01:52:58 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 02:07:24 --> Firebase\JWT\JWT::decode(): Argument #1 ($jwt) must be of type string, null given, called in D:\XAMPP\htdocs\codeigniter4\app\Helpers\TokenSession.php on line 44
+in VENDORPATH\firebase\php-jwt\src\JWT.php on line 95.
+ 1 APPPATH\Helpers\TokenSession.php(44): Firebase\JWT\JWT::decode(null, Object(Firebase\JWT\Key))
+ 2 APPPATH\Controllers\UserController.php(41): App\Helpers\TokenSession::decodeToken(null)
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->updateUser()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 02:08:28 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 02:22:52 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 02:23:13 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 02:23:16 --> Attempt to read property "idMovie" on null
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idMovie" on null', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 02:26:36 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 02:27:52 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 02:27:54 --> Attempt to read property "idMovie" on int
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idMovie" on int', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 02:28:51 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 02:28:53 --> Attempt to read property "idMovie" on int
+in APPPATH\Controllers\UserController.php on line 137.
+ 1 APPPATH\Controllers\UserController.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "idMovie" on int', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Controllers\\UserController.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 02:30:23 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 02:30:26 --> "inf" is an invalid log level.
+in SYSTEMPATH\Log\Logger.php on line 258.
+ 1 SYSTEMPATH\Log\Logger.php(258): CodeIgniter\Log\Exceptions\LogException::forInvalidLogLevel('inf')
+ 2 SYSTEMPATH\Common.php(812): CodeIgniter\Log\Logger->log('inf', '448646', [])
+ 3 APPPATH\Controllers\UserController.php(138): log_message('inf', '448646')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 02:32:34 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 02:32:36 --> "inf" is an invalid log level.
+in SYSTEMPATH\Log\Logger.php on line 258.
+ 1 SYSTEMPATH\Log\Logger.php(258): CodeIgniter\Log\Exceptions\LogException::forInvalidLogLevel('inf')
+ 2 SYSTEMPATH\Common.php(812): CodeIgniter\Log\Logger->log('inf', '448646', [])
+ 3 APPPATH\Controllers\UserController.php(138): log_message('inf', '448646')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 02:32:59 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 02:33:02 --> "inf" is an invalid log level.
+in SYSTEMPATH\Log\Logger.php on line 258.
+ 1 SYSTEMPATH\Log\Logger.php(258): CodeIgniter\Log\Exceptions\LogException::forInvalidLogLevel('inf')
+ 2 SYSTEMPATH\Common.php(812): CodeIgniter\Log\Logger->log('inf', '448646', [])
+ 3 APPPATH\Controllers\UserController.php(138): log_message('inf', '448646')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 02:34:15 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 02:34:36 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 02:34:39 --> "inf" is an invalid log level.
+in SYSTEMPATH\Log\Logger.php on line 258.
+ 1 SYSTEMPATH\Log\Logger.php(258): CodeIgniter\Log\Exceptions\LogException::forInvalidLogLevel('inf')
+ 2 SYSTEMPATH\Common.php(812): CodeIgniter\Log\Logger->log('inf', '448646', [])
+ 3 APPPATH\Controllers\UserController.php(138): log_message('inf', '448646')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 02:35:29 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 02:35:32 --> There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 294.
+ 1 SYSTEMPATH\Model.php(294): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\UserController.php(142): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 02:39:03 --> Fecha de nacimiento : 1999-12-15
+ERROR - 2023-07-04 02:39:05 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «idMovie» en la relación «library»
+LINE 1: INSERT INTO &quot;library&quot; (&quot;idMovie&quot;, &quot;idUser&quot;) VALUES (448646, ...
+                               ^ in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:152
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\XAMPP\\htdocs...', 152)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'INSERT INTO "li...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "li...')
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "li...')
+#4 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO "li...', Array, false)
+#5 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#8 D:\XAMPP\htdocs\codeigniter4\app\Controllers\UserController.php(141): CodeIgniter\Model->insert(Array)
+#9 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+#10 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-07-04 02:39:05 --> pg_query(): Query failed: ERROR:  no existe la columna «idMovie» en la relación «library»
+LINE 1: INSERT INTO &quot;library&quot; (&quot;idMovie&quot;, &quot;idUser&quot;) VALUES (448646, ...
+                               ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 152.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  no existe la columna «idMovie» en la relación «library»
+LINE 1: INSERT INTO &quot;library&quot; (&quot;idMovie&quot;, &quot;idUser&quot;) VALUES (448646, ...
+                               ^', 'D:\\XAMPP\\htdocs\\codeigniter4\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 152)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'INSERT INTO "library" ("idMovie", "idUser") VALUES (448646, \'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "library" ("idMovie", "idUser") VALUES (448646, \'4\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "library" ("idMovie", "idUser") VALUES (448646, \'4\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO "library" ("idMovie", "idUser") VALUES (:idMovie:, :idUser:)', [...], false)
+ 6 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\UserController.php(141): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 02:40:30 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 02:40:57 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 03:21:19 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 03:21:22 --> Cannot use object of type App\Models\Library as array
+in APPPATH\Models\Library.php on line 19.
+ 1 APPPATH\Controllers\UserController.php(141): App\Models\Library->existenceOfCombination(448646, '4')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 03:24:08 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 03:24:10 --> Cannot use object of type App\Models\Library as array
+in APPPATH\Models\Library.php on line 19.
+ 1 APPPATH\Controllers\UserController.php(142): App\Models\Library->existenceOfCombination(448646, '4')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 03:24:47 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 03:24:50 --> movie en ususario : object
+INFO - 2023-07-04 03:25:29 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 03:25:31 --> movie en ususario : NULL
+INFO - 2023-07-04 03:26:32 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 03:26:34 --> movie en ususario : NULL
+INFO - 2023-07-04 03:27:14 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 03:27:17 --> movie en ususario : NULL
+INFO - 2023-07-04 03:31:27 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 03:31:30 --> movie en ususario : array
+INFO - 2023-07-04 03:32:00 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 03:32:02 --> Undefined array key 0
+in APPPATH\Models\Library.php on line 19.
+ 1 APPPATH\Models\Library.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Models\\Library.php', 19)
+ 2 APPPATH\Controllers\UserController.php(142): App\Models\Library->existenceOfCombination(448646, '4')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 03:32:45 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 03:32:48 --> Undefined array key "iduser"
+in APPPATH\Models\Library.php on line 19.
+ 1 APPPATH\Models\Library.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "iduser"', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Models\\Library.php', 19)
+ 2 APPPATH\Controllers\UserController.php(142): App\Models\Library->existenceOfCombination(448646, '4')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 03:35:14 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 03:38:11 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 03:38:13 --> Call to a member function getName() on null
+in APPPATH\Models\Library.php on line 23.
+ 1 APPPATH\Controllers\UserController.php(142): App\Models\Library->existenceOfCombination(448646, '4')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 03:40:17 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 03:40:19 --> Call to a member function info() on null
+in APPPATH\Models\Library.php on line 20.
+ 1 APPPATH\Controllers\UserController.php(142): App\Models\Library->existenceOfCombination(448646, '4')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 03:41:22 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 03:41:24 --> Array to string conversion
+in APPPATH\Models\Library.php on line 20.
+ 1 APPPATH\Models\Library.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Models\\Library.php', 20)
+ 2 APPPATH\Controllers\UserController.php(142): App\Models\Library->existenceOfCombination(448646, '4')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 03:42:43 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 03:42:45 --> Array to string conversion
+in APPPATH\Models\Library.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Models\\Library.php', 20)
+ 2 APPPATH\Models\Library.php(20): implode(' ', [...])
+ 3 APPPATH\Controllers\UserController.php(142): App\Models\Library->existenceOfCombination(448646, '4')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 03:43:55 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 03:43:58 --> Array to string conversion
+in APPPATH\Models\Library.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Models\\Library.php', 20)
+ 2 APPPATH\Models\Library.php(20): join(' ', [...])
+ 3 APPPATH\Controllers\UserController.php(142): App\Models\Library->existenceOfCombination(448646, '4')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 03:44:56 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 03:44:58 --> Undefined array key 0
+in APPPATH\Models\Library.php on line 20.
+ 1 APPPATH\Models\Library.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Models\\Library.php', 20)
+ 2 APPPATH\Controllers\UserController.php(142): App\Models\Library->existenceOfCombination(448646, '4')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 03:45:52 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 03:45:54 --> movie en ususario : 43
+INFO - 2023-07-04 03:48:42 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 03:48:45 --> Call to undefined method App\Models\Library::getResult
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Models\Library.php(18): CodeIgniter\Model->__call('getResult', [])
+ 2 APPPATH\Controllers\UserController.php(142): App\Models\Library->existenceOfCombination(448646, '4')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 03:52:40 --> Fecha de nacimiento : 1999-12-15
+ERROR - 2023-07-04 03:52:42 --> ErrorException: pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «=»
+LINE 1: select iduser from library where idmovie=448646&amp; iduser=4
+                                                               ^ in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:152
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\XAMPP\\htdocs...', 152)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'select iduser f...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('select iduser f...')
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select iduser f...')
+#4 D:\XAMPP\htdocs\codeigniter4\app\Models\Library.php(18): CodeIgniter\Database\BaseConnection->query('select iduser f...')
+#5 D:\XAMPP\htdocs\codeigniter4\app\Controllers\UserController.php(142): App\Models\Library->existenceOfCombination(448646, '4')
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-04 03:52:42 --> pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «=»
+LINE 1: select iduser from library where idmovie=448646&amp; iduser=4
+                                                               ^
+in SYSTEMPATH\Database\Postgre\Connection.php on line 152.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  error de sintaxis en o cerca de «=»
+LINE 1: select iduser from library where idmovie=448646&amp; iduser=4
+                                                               ^', 'D:\\XAMPP\\htdocs\\codeigniter4\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 152)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'select iduser from library where idmovie=448646& iduser=4')
+ 3 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('select iduser from library where idmovie=448646& iduser=4')
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('select iduser from library where idmovie=448646& iduser=4')
+ 5 APPPATH\Models\Library.php(18): CodeIgniter\Database\BaseConnection->query('select iduser from library where idmovie=448646& iduser=4')
+ 6 APPPATH\Controllers\UserController.php(142): App\Models\Library->existenceOfCombination(448646, '4')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 03:55:47 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 03:55:49 --> movie en ususario : array
+INFO - 2023-07-04 03:56:28 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 03:56:30 --> Undefined array key "iduser"
+in APPPATH\Models\Library.php on line 22.
+ 1 APPPATH\Models\Library.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "iduser"', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Models\\Library.php', 22)
+ 2 APPPATH\Controllers\UserController.php(142): App\Models\Library->existenceOfCombination(448646, '4')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 03:56:51 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 03:56:54 --> movie en ususario : object
+INFO - 2023-07-04 03:57:28 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 03:57:30 --> movie en ususario : string
+INFO - 2023-07-04 03:57:53 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 03:57:55 --> movie en ususario : 4
+INFO - 2023-07-04 04:01:39 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 04:01:42 --> Undefined array key 0
+in APPPATH\Models\Library.php on line 23.
+ 1 APPPATH\Models\Library.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Models\\Library.php', 23)
+ 2 APPPATH\Controllers\UserController.php(142): App\Models\Library->existenceOfCombination(448646, '4')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->addMovieInLibrary()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 04:03:35 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:03:38 --> 
+INFO - 2023-07-04 04:03:59 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:04:02 --> 
+INFO - 2023-07-04 04:04:04 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:04:06 --> 1
+INFO - 2023-07-04 04:05:21 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:05:23 --> 0
+INFO - 2023-07-04 04:05:30 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:05:32 --> 1
+INFO - 2023-07-04 04:08:15 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:08:17 --> 1
+INFO - 2023-07-04 04:10:17 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:10:20 --> 0
+INFO - 2023-07-04 04:18:51 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:19:44 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:22:20 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:22:38 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:23:20 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:23:35 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:24:33 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:25:46 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:26:10 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:26:21 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:26:43 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 04:28:58 --> Fecha de nacimiento : 1999-12-15
+WARNING - 2023-07-04 06:18:14 --> [DEPRECATED] urlencode(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Controllers\UserController.php on line 187.
+ 1 APPPATH\Controllers\UserController.php(187): urlencode(null)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->findMovieByName()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 06:24:59 --> "inf" is an invalid log level.
+in SYSTEMPATH\Log\Logger.php on line 258.
+ 1 SYSTEMPATH\Log\Logger.php(258): CodeIgniter\Log\Exceptions\LogException::forInvalidLogLevel('inf')
+ 2 SYSTEMPATH\Common.php(812): CodeIgniter\Log\Logger->log('inf', 'https://api.trakt.tv/movie/448646&extended=full', [])
+ 3 APPPATH\Controllers\UserController.php(182): log_message('inf', 'https://api.trakt.tv/movie/448646&extended=full')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->findMovieById()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 06:25:29 --> https://api.trakt.tv/movie/448646&extended=full
+INFO - 2023-07-04 06:26:05 --> https://api.trakt.tv/movie/448646
+INFO - 2023-07-04 06:27:45 --> Fecha de nacimiento : 1999-12-15
+CRITICAL - 2023-07-04 07:01:38 --> urlencode(): Argument #1 ($string) must be of type string, stdClass given
+in APPPATH\Controllers\UserController.php on line 190.
+ 1 APPPATH\Controllers\UserController.php(190): urlencode(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->listMoviesInLibrary()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 07:02:19 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\UserController.php on line 190.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->listMoviesInLibrary()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 07:02:41 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\UserController.php on line 190.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->listMoviesInLibrary()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 07:02:44 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\UserController.php on line 190.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->listMoviesInLibrary()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 07:04:12 --> Undefined array key "idMovie"
+in APPPATH\Controllers\UserController.php on line 188.
+ 1 APPPATH\Controllers\UserController.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idMovie"', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Controllers\\UserController.php', 188)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->listMoviesInLibrary()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-04 07:04:37 --> Undefined array key "idmovie"
+in APPPATH\Controllers\UserController.php on line 188.
+ 1 APPPATH\Controllers\UserController.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idmovie"', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Controllers\\UserController.php', 188)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->listMoviesInLibrary()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 07:06:48 --> object
+CRITICAL - 2023-07-04 07:06:48 --> urlencode(): Argument #1 ($string) must be of type string, stdClass given
+in APPPATH\Controllers\UserController.php on line 190.
+ 1 APPPATH\Controllers\UserController.php(190): urlencode(Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->listMoviesInLibrary()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 07:07:23 --> string
+CRITICAL - 2023-07-04 07:07:23 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+in APPPATH\Controllers\UserController.php on line 191.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->listMoviesInLibrary()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 07:08:27 --> 448646
+CRITICAL - 2023-07-04 07:08:27 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+in APPPATH\Controllers\UserController.php on line 192.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->listMoviesInLibrary()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 07:11:48 --> 448646
+INFO - 2023-07-04 07:11:48 --> object
+INFO - 2023-07-04 07:12:09 --> 448646
+INFO - 2023-07-04 07:12:10 --> string
+INFO - 2023-07-04 07:12:31 --> 448646
+INFO - 2023-07-04 07:12:31 --> {
+    "stateResult": true,
+    "data": {
+        "title": "John Wick: Chapter 4",
+        "year": 2023,
+        "ids": {
+            "trakt": 448646,
+            "slug": "john-wick-chapter-4-2023",
+            "imdb": "tt10366206",
+            "tmdb": 603692
+        },
+        "tagline": "No way back, one way out.",
+        "overview": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+        "released": "2023-03-24",
+        "runtime": 170,
+        "country": "us",
+        "trailer": "https://youtube.com/watch?v=yjRHZEUamCc",
+        "homepage": "https://johnwick.movie",
+        "status": "released",
+        "rating": 7.76589,
+        "votes": 9064,
+        "comment_count": 152,
+        "updated_at": "2023-07-02T08:03:36.000Z",
+        "language": "en",
+        "available_translations": [
+            "ar",
+            "bg",
+            "ca",
+            "cs",
+            "da",
+            "de",
+            "el",
+            "en",
+            "es",
+            "fa",
+            "fi",
+            "fr",
+            "he",
+            "hr",
+            "hu",
+            "id",
+            "it",
+            "ja",
+            "ko",
+            "lt",
+            "my",
+            "nl",
+            "no",
+            "pl",
+            "pt",
+            "ro",
+            "ru",
+            "sk",
+            "sl",
+            "sr",
+            "sv",
+            "th",
+            "tr",
+            "uk",
+            "vi",
+            "zh"
+        ],
+        "genres": [
+            "action",
+            "crime",
+            "thriller"
+        ],
+        "certification": "R"
+    },
+    "inf": ""
+}
+INFO - 2023-07-04 07:14:07 --> 448646
+INFO - 2023-07-04 07:21:33 --> 448646
+CRITICAL - 2023-07-04 07:25:29 --> syntax error, unexpected variable "$url"
+in APPPATH\Controllers\UserController.php on line 190.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\XAMPP\\htdocs\\codeigniter4\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-07-04 07:25:50 --> 448646
+INFO - 2023-07-04 07:25:50 --> 155
+INFO - 2023-07-04 07:34:27 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 07:35:24 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 07:36:48 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 07:37:17 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 07:38:37 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 07:38:42 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 07:38:49 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 08:49:52 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 08:50:19 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 09:19:08 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 09:25:17 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 09:47:48 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 09:48:17 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 09:49:19 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 09:51:10 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 09:51:27 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 09:51:41 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 09:51:55 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 09:52:20 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 09:52:34 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 09:53:10 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 09:54:42 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 09:55:00 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 09:55:51 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:00:24 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:00:46 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:01:05 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:01:15 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:01:31 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:01:37 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:01:50 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:02:03 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:02:17 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:03:06 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:03:35 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:09:34 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:10:07 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:10:22 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:11:28 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:11:57 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:12:39 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:12:49 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:13:17 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:13:32 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:13:51 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:13:56 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:16:27 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:18:07 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:22:47 --> Fecha de nacimiento : 1999-12-15
+INFO - 2023-07-04 10:30:32 --> Fecha de nacimiento : 1999-12-15

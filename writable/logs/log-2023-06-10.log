@@ -1,0 +1,122 @@
+INFO - 2023-06-10 00:33:49 --> Prueba test : object
+INFO - 2023-06-10 00:33:49 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 00:33:49 --> Usuario buscado de la BD ----> : John
+ERROR - 2023-06-10 00:33:49 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «users_pkey»
+DETAIL:  Ya existe la llave (email)=(Robewrto33@hotmail.com). in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php:152
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'D:\\XAMPP\\htdocs...', 152)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'INSERT INTO "us...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "us...')
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "us...')
+#4 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO "us...', Array, false)
+#5 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#8 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Model->insert(Array, false)
+#9 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#10 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-10 00:33:49 --> pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «users_pkey»
+DETAIL:  Ya existe la llave (email)=(Robewrto33@hotmail.com).
+in SYSTEMPATH\Database\Postgre\Connection.php on line 152.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «users_pkey»
+DETAIL:  Ya existe la llave (email)=(Robewrto33@hotmail.com).', 'D:\\XAMPP\\htdocs\\codeigniter4\\vendor\\codeigniter4\\framework\\system\\Database\\Postgre\\Connection.php', 152)
+ 2 SYSTEMPATH\Database\Postgre\Connection.php(152): pg_query(Object(PgSql\Connection), 'INSERT INTO "users" ("email", "password", "username") VALUES (\'Robewrto33@hotmail.com\', \'15300139\', \'DimitriusPlay\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO "users" ("email", "password", "username") VALUES (\'Robewrto33@hotmail.com\', \'15300139\', \'DimitriusPlay\')')
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO "users" ("email", "password", "username") VALUES (\'Robewrto33@hotmail.com\', \'15300139\', \'DimitriusPlay\')')
+ 5 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO "users" ("email", "password", "username") VALUES (:email:, :password:, :username:)', [...], false)
+ 6 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(29): CodeIgniter\Model->insert([...], false)
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-10 00:34:04 --> Prueba test : object
+INFO - 2023-06-10 00:34:04 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 00:34:04 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 01:07:03 --> Prueba test : object
+INFO - 2023-06-10 01:07:03 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 01:07:03 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 01:14:30 --> Prueba test : object
+INFO - 2023-06-10 01:14:30 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 01:14:30 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 01:53:33 --> Prueba test : object
+INFO - 2023-06-10 01:53:33 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 01:53:33 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 01:54:23 --> Prueba test : object
+INFO - 2023-06-10 01:54:23 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 01:54:23 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 01:55:36 --> Prueba test : object
+INFO - 2023-06-10 01:55:36 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 01:55:36 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 01:56:46 --> Prueba test : object
+INFO - 2023-06-10 01:56:46 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 01:56:46 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 01:57:52 --> Prueba test : object
+INFO - 2023-06-10 01:57:52 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 01:57:52 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 02:01:01 --> Prueba test : object
+INFO - 2023-06-10 02:01:01 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 02:01:01 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 02:01:56 --> Prueba test : object
+INFO - 2023-06-10 02:01:56 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 02:01:56 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 02:02:30 --> Prueba test : object
+INFO - 2023-06-10 02:02:30 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 02:02:30 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 03:12:07 --> Prueba test : object
+INFO - 2023-06-10 03:12:07 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 03:12:07 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 03:12:07 --> -->
+INFO - 2023-06-10 03:13:12 --> Prueba test : object
+INFO - 2023-06-10 03:13:12 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 03:13:12 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 03:13:12 --> -->
+INFO - 2023-06-10 03:14:41 --> Prueba test : object
+INFO - 2023-06-10 03:14:42 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 03:14:42 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 03:14:42 --> -->
+INFO - 2023-06-10 03:15:35 --> Prueba test : object
+INFO - 2023-06-10 03:15:35 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 03:15:35 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 03:15:35 --> -->
+INFO - 2023-06-10 03:17:42 --> Prueba test : object
+INFO - 2023-06-10 03:17:43 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 03:17:43 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 03:17:43 --> -->
+INFO - 2023-06-10 03:18:10 --> Prueba test : object
+INFO - 2023-06-10 03:18:10 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 03:18:10 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 03:18:10 --> -->
+INFO - 2023-06-10 03:19:40 --> Prueba test : object
+INFO - 2023-06-10 03:19:40 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 03:19:40 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 03:19:40 --> -->
+INFO - 2023-06-10 03:22:57 --> Prueba test : object
+INFO - 2023-06-10 03:22:57 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 03:22:57 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 23:17:15 --> Prueba test : object
+INFO - 2023-06-10 23:17:16 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 23:17:16 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 23:17:56 --> Prueba test : object
+INFO - 2023-06-10 23:17:57 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 23:17:57 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 23:19:06 --> Prueba test : object
+INFO - 2023-06-10 23:19:06 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 23:19:06 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 23:32:51 --> Prueba test : object
+INFO - 2023-06-10 23:32:51 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 23:32:51 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 23:40:18 --> Prueba test : object
+INFO - 2023-06-10 23:40:18 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 23:40:18 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 23:40:34 --> Prueba test : object
+INFO - 2023-06-10 23:40:34 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 23:40:34 --> Usuario buscado de la BD ----> : John
+INFO - 2023-06-10 23:40:42 --> Prueba test : object
+INFO - 2023-06-10 23:40:42 --> Prueba test ----> : usuario1@example.com
+INFO - 2023-06-10 23:40:42 --> Usuario buscado de la BD ----> : John

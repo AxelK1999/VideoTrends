@@ -1,0 +1,116 @@
+INFO - 2023-06-18 00:19:57 --> PaswordHash --> : $2y$10$.559.NlREAoW1NX7K7ySru/baYxbIHASfRQDJEncChBqrP7uOxhcG
+ERROR - 2023-06-18 00:19:59 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'D:\\XAMPP\\htdocs...', 1735)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1735): mail('axelx33@hotmail...', '=?UTF-8?Q?Prueb...', 'Este es un corr...', 'Date: Sun, 18 J...', '-f axelx33@hotm...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Auth.php(96): CodeIgniter\Email\Email->send()
+#5 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-18 00:19:59 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-06-18 00:19:59 --> 
+INFO - 2023-06-18 00:25:15 --> PaswordHash --> : $2y$10$Bczj22upzhnMeZvCgor14u61yqfTM5oI/l5fbXzgKIkkDF5h.nZcC
+ERROR - 2023-06-18 00:25:17 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'D:\\XAMPP\\htdocs...', 1735)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1735): mail('axelx33@hotmail...', '=?UTF-8?Q?Prueb...', 'Este es un corr...', 'Date: Sun, 18 J...', '-f axelx33@hotm...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Auth.php(96): CodeIgniter\Email\Email->send()
+#5 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-18 00:25:17 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-06-18 00:25:17 --> 
+INFO - 2023-06-18 02:36:25 --> PaswordHash --> : $2y$10$mLBvu3LjDwiZ8N5.q/8o4ObN/Qtn6jnXjL0QLyJ1.wBINiEXtQ2hG
+ERROR - 2023-06-18 02:36:27 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'D:\\XAMPP\\htdocs...', 1735)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1735): mail('axelx33@hotmail...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Sun, 18 J...', '-f axelx33@hotm...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Auth.php(97): CodeIgniter\Email\Email->send()
+#5 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-18 02:36:27 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-06-18 02:36:27 --> 
+INFO - 2023-06-18 02:39:12 --> PaswordHash --> : $2y$10$L2V1HgNe36oB3wTh1ZJYdOW3jo/wK9N2lELaMdPzkxCX6Lhph3ECe
+ERROR - 2023-06-18 02:39:14 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'D:\\XAMPP\\htdocs...', 1735)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1735): mail('moniquerodri@ho...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Sun, 18 J...', '-f axelx33@hotm...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Auth.php(97): CodeIgniter\Email\Email->send()
+#5 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-18 02:39:14 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-06-18 02:39:14 --> 
+INFO - 2023-06-18 02:52:13 --> PaswordHash --> : $2y$10$0OP3VaGA8tuHJj6Zt1NRZucqX0O2bl2JUQ6FisWjcEv8jUjBFlLI2
+ERROR - 2023-06-18 02:52:14 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:0A00010B:SSL routines::wrong version number in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'D:\\XAMPP\\htdocs...', 1863)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1863): fsockopen('tls://sandbox.s...', 465, NULL, NULL, 5)
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1782): CodeIgniter\Email\Email->SMTPConnect()
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithSmtp()
+#4 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#5 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Auth.php(108): CodeIgniter\Email\Email->send()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-06-18 02:52:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-06-18 02:52:14 --> 
+INFO - 2023-06-18 02:57:49 --> PaswordHash --> : $2y$10$8eBV6UhyWcnB61KL.ckmS.N6TGIy0sy8K70V5ziZm5RZfBqS/ww82
+INFO - 2023-06-18 03:14:28 --> PaswordHash --> : $2y$10$2AVLw.IYvQ3OXzTDVQNyu.4xAj9JaqYwgQx4f3uH..25/l36oKTge
+ERROR - 2023-06-18 03:14:30 --> Email: sendWithMail throwed ErrorException: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php:1735
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'D:\\XAMPP\\htdocs...', 1735)
+#1 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1735): mail('moniquerodri@ho...', '=?UTF-8?Q?Email...', 'Testing the ema...', 'Date: Sun, 18 J...', '-f axelx33@hotm...')
+#2 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1667): CodeIgniter\Email\Email->sendWithMail()
+#3 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\Email\Email.php(1565): CodeIgniter\Email\Email->spoolEmail()
+#4 D:\XAMPP\htdocs\codeigniter4\app\Controllers\Auth.php(109): CodeIgniter\Email\Email->send()
+#5 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+#6 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\XAMPP\htdocs\codeigniter4\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\XAMPP\htdocs\codeigniter4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-06-18 03:14:30 --> Email: Unable to send email using PHP mail(). Your server might not be configured to send mail using this method.
+ERROR - 2023-06-18 03:14:30 --> 
+INFO - 2023-06-18 03:21:15 --> PaswordHash --> : $2y$10$buy2gweRBatOQc0W4kQpZuksHMVq4RienDgP1Eek/7nZ9Qhod2HZK
+INFO - 2023-06-18 03:23:20 --> PaswordHash --> : $2y$10$VT8J8shMDRzT9m6CSuPVzOpn0IgESoP95Y76G4JRhndtjJ8LxJ336
+INFO - 2023-06-18 03:24:42 --> PaswordHash --> : $2y$10$3zAHgdsfNzPv59VWMoF1puQahJqiBTjHLQInAOuW.wcAUkqsirmS6
+INFO - 2023-06-18 05:01:23 --> PaswordHash --> : $2y$10$WzIMEmNMxaVxSAgnpkbv3uljwjQQpxjaU3VJliFBGHUFNOmuDZV3i
+INFO - 2023-06-18 05:04:38 --> PaswordHash --> : $2y$10$ZNh0TZ6K1uFSeifCHHfHKuEPZJOzwDE8vY0ctuO46IMSgR.gZ7TFy
+INFO - 2023-06-18 05:06:05 --> PaswordHash --> : $2y$10$odBnSHMZTOYV348ET6Qe3edgUjMx/ucHrgv49HpkjSzjxJIPoMbGm
+INFO - 2023-06-18 05:41:37 --> PaswordHash --> : $2y$10$V2nrwrZFYq7hbCedPGX/3OkpleBPBKE1kZFhmGvCQpi7uoPeE2nlG
+CRITICAL - 2023-06-18 05:41:37 --> Undefined variable $linkWithTokenValidCuenta
+in APPPATH\Views\emailValidationCuenta.php on line 13.
+ 1 APPPATH\Views\emailValidationCuenta.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $linkWithTokenValidCuenta', 'D:\\XAMPP\\htdocs\\codeigniter4\\app\\Views\\emailValidationCuenta.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\XAMPP\\htdocs\\codeigniter4\\app\\Views\\emailValidationCuenta.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('emailValidationCuenta', [], true)
+ 5 APPPATH\Controllers\Auth.php(106): view('emailValidationCuenta')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->registerUser()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-18 05:42:51 --> PaswordHash --> : $2y$10$MtqVkaE/HWNxv/aByQHZw.r16GJ1ogfI6rU.kxQCtKfc7k7w.aZNK
+INFO - 2023-06-18 05:45:45 --> PaswordHash --> : $2y$10$8fMXijETCzG9pRwIGKtaHu0dAk8qn/5Jpdn59bQvgSQ/KyErzITyK
+INFO - 2023-06-18 05:45:47 --> Correo enviado exitosamente
+INFO - 2023-06-18 06:00:18 --> PaswordHash --> : $2y$10$qkypgt5WnafUfBNuOpZRB.SmnKAk8ZT1Gb98i2grmvZysBkstN90W
+INFO - 2023-06-18 06:00:20 --> Correo enviado exitosamente
