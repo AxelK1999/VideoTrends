@@ -17,7 +17,7 @@ Aplicacion web de consultas de peliculas y creacion de biblioteca con sus pelicu
 - Conexion a servicios de terceros (API trakt - SMTP Miltrap)
 
 ## Tecnologias Utilizadas
-- **PHP y CodeIgnater 5**
+- **PHP y CodeIgnater 4**
 - **Composer**
 - **Servidor Apache**
 - **Base de datos : PostgreSQL** 
