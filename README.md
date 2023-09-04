@@ -38,7 +38,7 @@ Aplicacion web de consultas de peliculas y creacion de biblioteca con sus pelicu
 - Clonar proyecto del repositiorio : `git clone https://github.com/AxelK1999/VideoTrends.git`
 - Estando posicionado en la carpeta del proyecto previamente clonado, en la terminal:
     1. Instalacion de dependencias: `composer install` de surgir algun problema `composer update`. 
-- Crearse una cuante y logearse en `https://mailtrap.io/signin` y acceder a `Home` > `email testing` > `SMTP Settings` > `Show Credentials` > definir los datos SMTP que se especifican en el clase `app/Helpers/Email.php` > variable `$emailConfig`. Permitira ver los email de validacion de cuenta, de lo contrario al registrar no tendra accesos.
+- Crearse una cuante y logearse en https://mailtrap.io/signin y acceder a `Home` > `email testing` > `SMTP Settings` > `Show Credentials` > definir los datos SMTP que se especifican en el clase `app/Helpers/Email.php` > variable `$emailConfig`. Permitira ver los email de validacion de cuenta, de lo contrario al registrar no tendra accesos.
 
 ## Uso
 - Correr el proyecto : abrir panel de control de XAMPP > iniciar(start) el servicio de apache y acceder a `http://localhost/VideoTrend/public/api/1.0/views/login`.
