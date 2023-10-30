@@ -13,7 +13,7 @@ Aplicacion web de consultas de peliculas y creacion de biblioteca con sus pelicu
 - Actualizacion y control de datos de usuario.
 - Alta y baja de peliculas en biblioteca personal.
 - Validacion y control de datos de entrada.
-- Encriptacion de activos criticos (password).
+- Encriptacion de activos (password).
 - Conexion a servicios de terceros (API trakt - SMTP Miltrap)
 
 ## Tecnologias Utilizadas
