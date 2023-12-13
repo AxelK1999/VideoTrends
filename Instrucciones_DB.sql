@@ -18,7 +18,7 @@ CREATE TABLE users (
     PRIMARY KEY (id)
 );
 
-create table mylibrary(
+create table library(
 	id serial not null,
 	idMovie integer not null,
 	idUser integer not null,
