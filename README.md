@@ -33,7 +33,7 @@ Aplicacion web de consultas de peliculas y creacion de biblioteca con sus pelicu
 - Instalar PostgreSQL : https://www.postgresql.org/download/
 - En WAMPP en la fila del servicio de apache > boton config > PHP(php.init)
     - Quitar los `;` delante de las siguietes extenciones en el archivo para  habilitarlos: `extension=pgsql`, `extension=pdo_pgsql` y `extension=intl`.
-- En la base de datos PostgreSQL crear las tablas e insertar los datos para poder probar sgun lo indica el archivo `Instrucciones_DB.sql` del proyecto.
+- En la base de datos PostgreSQL crear las tablas e insertar los datos para poder probar segun lo indica el archivo `Instrucciones_DB.sql` del proyecto.
 - Posicionarse con git en la carpeta htdocs de XAMPP y lugo clonar proyecto en esa carpeta.
 - Clonar proyecto del repositiorio : `git clone https://github.com/AxelK1999/VideoTrends.git`
 - Estando posicionado en la carpeta del proyecto previamente clonado, en la terminal:
@@ -41,6 +41,6 @@ Aplicacion web de consultas de peliculas y creacion de biblioteca con sus pelicu
 - Crearse una cuante y logearse en https://mailtrap.io/signin y acceder a `Home` > `email testing` > `SMTP Settings` > `Show Credentials` > definir los datos SMTP que se especifican en el clase `app/Helpers/Email.php` > variable `$emailConfig`. Permitira ver los email de validacion de cuenta, de lo contrario al registrar no tendra accesos.
 
 ## Uso
-- Correr el proyecto : abrir panel de control de XAMPP > iniciar(start) el servicio de apache y acceder a `http://localhost/VideoTrend/public/api/1.0/views/login`.
+- Correr el proyecto : abrir panel de control de XAMPP > iniciar(start) el servicio de apache y acceder a `http://localhost/VideoTrends/public/api/1.0/views/login`.
 
 
